@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "updated": "2026-08-23",
+  "about": "Controlled tag vocabulary for the design system library. The importer normalizes every system's tags through this file at import and retag time, so the published index stays consistent no matter what an individual system.md happens to carry in its frontmatter. This file is the single source of truth: the importer reads it from disk, and preflight and the create-design-systems skill fetch it over HTTP from this same published path.",
+  "policy": {
+    "canonical": "Prefer these. They are the facets worth filtering on, and they are what the design-systems skill documents.",
+    "aliases": "Rewritten to their canonical form on import. Add to this map rather than hand-editing system.md files.",
+    "open": "Domain tags outside the canonical set are allowed and kept as-is. They are what makes a niche system findable. The importer logs them so new near-duplicates get noticed early.",
+    "form": "lowercase, hyphenated, no spaces. Prefer plural for countable things (cards, forms) and singular for qualities (warm, minimal)."
+  },
+  "canonical": {
+    "theme": ["light", "dark"],
+    "feel": ["minimal", "warm", "professional", "premium", "modern", "bold", "playful", "friendly", "high-contrast", "elegant", "sophisticated", "calm", "vibrant", "stark", "retro"],
+    "typography": ["serif", "monospace", "condensed"],
+    "effect": ["gradient", "glass", "textured", "illustrated", "monochrome", "neon"],
+    "structure": ["cards", "mobile-first", "rounded", "organic", "brutalist", "colorful", "data-dense", "data-visualization", "forms", "split-layout", "generous-spacing"],
+    "category": ["editorial", "marketing", "dashboard", "saas", "enterprise", "developer", "terminal", "wellness", "educational", "entertainment", "financial", "publishing", "celebration", "marketplace", "onboarding", "scheduling", "productivity"]
+  },
+  "aliases": {
+    "glassmorphism": "glass",
+    "glass-morphism": "glass",
+    "form": "forms",
+    "form-heavy": "forms",
+    "serif-display": "serif",
+    "serif-headlines": "serif",
+    "mobile": "mobile-first",
+    "warm-neutrals": "warm",
+    "warm-accent": "warm",
+    "bold-accent": "bold",
+    "card-based": "cards",
+    "celebratory": "celebration",
+    "monochromatic": "monochrome",
+    "data-focused": "data-dense",
+    "illustration": "illustrated",
+    "finance": "financial",
+    "publication": "publishing",
+    "approachable": "friendly",
+    "clean": "minimal",
+    "sleek": "modern",
+    "mono": "monospace",
+    "light-theme": "light",
+    "dark-theme": "dark",
+    "gradients": "gradient",
+    "card": "cards"
+  }
+}
