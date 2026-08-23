@@ -1,8 +1,8 @@
 # LLM Design Systems
 
-**111 production-grade design systems, written as markdown an LLM can actually implement from.**
+**112 production-grade design systems, written as Markdown an LLM can actually implement from. ****
 
-AI coding tools are good at structure and bad at taste. Ask for a dashboard and you get the same centered card on a slate-50 background every time. These systems fix that — each one is a complete, opinionated specification (palette with semantic roles, type scale, spacing, component geometry, interaction states, and the rules that keep it from collapsing into a template) that you hand to Claude, Cursor, or Codex before it writes a line of UI.
+AI coding tools are good at structure and bad at taste. Ask for a dashboard, and you get the same centered card on a slate-50 background every time. These systems fix that — each one is a complete, opinionated specification (palette with semantic roles, type scale, spacing, component geometry, interaction states, and the rules that keep it from collapsing into a template) that you hand to Claude, Cursor, or Codex before it writes a line of UI.
 
 Free, MIT, no signup.
 
@@ -27,7 +27,7 @@ That's the whole product. Everything below is convenience on top of it.
 
 ## Install as a skill
 
-Drop `skills/design-systems/SKILL.md` into your agent's skills directory and it will search the library, match a system to whatever mood you describe, and apply it — no URLs to copy.
+Drop `skills/design-systems/SKILL.md` into your agent's skills directory, and it will search the library, match a system to whatever mood you describe, and apply it — no URLs to copy.
 
 ```bash
 git clone https://github.com/darrenbuckner/llm-design-systems
@@ -57,7 +57,7 @@ Every system has a live preview page showing its palette, type scale, and compon
 
 **https://www.capabilitylab.ai/library/design-systems**
 
-The previews stay hosted rather than checked in, so this repo stays text-only and clonable in a second.
+The previews stay hosted rather than checked in, so this repo stays text-only and can be cloned in a second.
 
 ## Finding the right one
 
@@ -67,9 +67,9 @@ curl -s https://www.capabilitylab.ai/library/design-systems/llm-index.md \
   | awk 'BEGIN{RS="---";ORS="---\n"} /brutalist/'
 ```
 
-Searching the prose beats filtering on tags — descriptions and design-tone text carry nuance the tags flatten. Tags run through a controlled vocabulary (`tag-vocabulary.json`) so spelling is consistent, but they're a coarse filter, not the index.
+Searching the prose beats filtering on tags — descriptions and design-tone text carry nuance that the tags flatten. Tags run through a controlled vocabulary (`tag-vocabulary.json`) to ensure consistent spelling, but they're a coarse filter, not the index.
 
-56 light, 55 dark. Heaviest tags: `minimal` (67), `warm` (38), `professional` (26), `editorial` (23), `gradient` (22), `premium` (22).
+57 light, 55 dark. Heaviest tags: `minimal` (67), `warm` (38), `professional` (26), `editorial` (23), `gradient` (22), `premium` (23).
 
 ## Where these come from
 
