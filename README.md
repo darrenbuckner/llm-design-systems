@@ -1,6 +1,6 @@
 # Agent Design Systems
 
-**112 production-grade design systems, written in Markdown that any Agent can actually implement. ** ****
+**100+ production-grade design systems, written in Markdown that any Agent can actually implement. ** ****
 
 AI coding tools are good at structure and bad at taste. Ask for a dashboard, and you get the same centered card on a slate-50 background every time. These systems fix that — each one is a complete, opinionated specification (palette with semantic roles, type scale, spacing, component geometry, interaction states, and the rules that keep it from collapsing into a template) that you hand to Claude, Cursor, or Codex before it writes a line of UI.
 
