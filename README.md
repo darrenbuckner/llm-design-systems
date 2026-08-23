@@ -85,7 +85,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Corrections to existing systems are espe
 
 New systems get added regularly. If you'd rather not poll the repo:
 
-**https://newcapability.ai** — an occasional email when systems land, plus what's working in AI-native building.
+**https://www.capabilitylab.ai** — an occasional email when systems land, plus what's working in AI-native building.
 
 ## License
 
