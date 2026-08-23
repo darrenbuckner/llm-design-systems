@@ -93,18 +93,18 @@ The vocabulary is open at the edges: canonical tags cover the facets worth filte
 
 | Tag | Systems |
 |-----|---------|
-| `light` | 56 |
+| `light` | 57 |
 | `dark` | 55 |
 
 **Feel** - the most useful axis for mood requests:
 
 | Tag | Systems | Meaning |
 |-----|---------|---------|
-| `minimal` | 67 | Clean, restrained |
+| `minimal` | 68 | Clean, restrained |
 | `warm` | 38 | Warm color temperature |
-| `professional` | 26 | Business-appropriate |
-| `modern` | 23 | Contemporary |
-| `premium` | 22 | Luxury/high-end |
+| `professional` | 27 | Business-appropriate |
+| `modern` | 24 | Contemporary |
+| `premium` | 23 | Luxury/high-end |
 | `bold` | 19 | Strong visual impact |
 | `playful` | 16 | Friendly, approachable |
 | `friendly` | 13 | Soft, welcoming |
@@ -122,7 +122,7 @@ The vocabulary is open at the edges: canonical tags cover the facets worth filte
 | `colorful` | 5 | Saturated multi-color |
 | `glass` | 5 | Glass morphism |
 | `organic` | 5 | Natural, flowing forms |
-| `cards` | 5 | Card-based layouts |
+| `cards` | 6 | Card-based layouts |
 | `rounded` | 5 | Heavy border-radius |
 | `monospace` | 4 | Monospace typography is central |
 
