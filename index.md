@@ -299,7 +299,7 @@ Clean, focused, task-oriented dark mode interface with minimal decoration. The d
 
 ---
 
-## Dark Minimal AI Chat (ID: `dark-minimal-claude-001`)
+## Dark Minimal AI Chat (ID: `dark-minimal-ai-chat-001`)
 
 **Description:** A sophisticated dark mode design system featuring warm terracotta accents and a nearly monochromatic palette. Designed for focused conversation interfaces that prioritize readability and calm producti
 
@@ -321,7 +321,7 @@ This is a sophisticated, minimal dark interface that prioritizes readability and
 - Keep shadows at zero — depth comes from background color layering only
 - High contrast is essential: #F5F5F5 text on #1A1A1A background minimum
 
-[View Full System Definition](systems/dark-minimal-claude-001/system.md)
+[View Full System Definition](systems/dark-minimal-ai-chat-001/system.md)
 
 ---
 

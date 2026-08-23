@@ -1,5 +1,5 @@
 ---
-id: dark-minimal-claude
+id: dark-minimal-ai-chat-001
 title: Dark Minimal AI Chat
 description: Sophisticated dark mode design system with warm terracotta accents and nearly monochromatic palette for focused conversation interfaces
 tags: dark, minimal, ai-chat, sophisticated
