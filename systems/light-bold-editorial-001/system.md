@@ -4,7 +4,7 @@ title: Bold Editorial Voice
 description: Confident, sophisticated design with earthy tones and commanding typography creating visual impact through bold statements and authentic personality
 tags: light, bold, editorial, earthy, sophisticated
 colors: #7C7C68, #FFFFFF, #2A2A2A, #E17B5F, #5BA8A0, #F8F8F5
-created: 2024-12-14
+created: 2025-12-14
 ---
 
 # Bold Editorial Voice

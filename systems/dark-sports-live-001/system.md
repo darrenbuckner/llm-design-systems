@@ -4,7 +4,7 @@ title: Graphite Sports System
 description: Dark theme sports score interface with bold typography and team color accents
 tags: [dark, sports, minimal, mobile-first]
 colors: ["#202124", "#303134", "#8AB4F8", "#DC143C", "#FFFFFF"]
-created: 2025-01-07
+created: 2026-01-08
 ---
 
 # Graphite Sports System

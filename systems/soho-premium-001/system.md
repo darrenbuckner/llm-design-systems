@@ -1,3 +1,12 @@
+---
+id: soho-premium-001
+title: Soho Premium Design System
+description: "Premium lifestyle brand aesthetic with warm earth tones, elegant serif typography, and understated refinement."
+tags: [light, minimal, premium, warm, editorial, gradient]
+colors: ["#F5F3EF","#1A1A1A","#666666","#FFFFFF"]
+created: 2025-12-12
+---
+
 ![[Pasted image 20251202125505.png]]
 # Soho Premium Membership Design System
 

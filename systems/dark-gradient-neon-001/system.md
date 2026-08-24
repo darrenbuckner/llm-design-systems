@@ -4,7 +4,7 @@ title: Neon Spectrum
 description: Modern dark interface with bold purple-to-violet gradient, clean typography, and vibrant accent elements
 tags: [dark, gradient, bold, modern, vibrant]
 colors: ['#0F0E1E', '#1A1528', '#7C3AED', '#6D28D9', '#A78BFA', '#FFFFFF', '#9CA3AF']
-created: 2025-01-05
+created: 2026-01-08
 ---
 
 # Neon Spectrum

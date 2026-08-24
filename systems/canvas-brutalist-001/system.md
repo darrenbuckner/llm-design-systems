@@ -1,3 +1,12 @@
+---
+id: canvas-brutalist-001
+title: Canvas Brutalist Design System
+description: "Pristine clarity with pure white background, black text. Clean canvas for clear thinking."
+tags: [light, minimal, modern, editorial, brutalist]
+colors: ["#FFFFFF","#000000"]
+created: 2025-12-12
+---
+
 # Canvas Brutalist Design System
 
 ## Visual Style

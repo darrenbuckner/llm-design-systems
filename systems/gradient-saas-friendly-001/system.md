@@ -4,7 +4,7 @@ title: Citrus Cloud
 description: A bright, approachable SaaS design system featuring vibrant purple-to-pink gradients, generous whitespace, and friendly rounded components
 tags: [light, gradient, friendly, modern, saas, rounded]
 colors: ["#7C3AED", "#EC4899", "#22C55E", "#FFFFFF", "#1F2937", "#6B7280"]
-created: 2025-01-10
+created: 2026-01-10
 ---
 
 # Citrus Cloud

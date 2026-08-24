@@ -4,7 +4,7 @@ title: Trailhead Heritage System
 description: A warm, rugged design system inspired by southwestern geometric patterns and vintage outdoor aesthetics
 tags: [warm, heritage, geometric, textured, earthy]
 colors: ["#3A5159", "#C4673A", "#E8DCC4", "#2C3E42"]
-created: 2024-12-20
+created: 2025-12-21
 ---
 
 # Trailhead Heritage System

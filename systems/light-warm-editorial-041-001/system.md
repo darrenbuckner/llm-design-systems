@@ -4,7 +4,7 @@ title: Vellum Editorial System
 description: A warm paper-toned editorial system pairing heavy geometric sans headlines with a reading serif, built for long-form program pages and application flows.
 tags: [light, warm, editorial, serif, minimal, long-form, form-heavy]
 colors: ["#F0EDE4", "#E4DFD1", "#CC7A5A", "#1A1917"]
-created: 2026-08-22
+created: 2026-08-23
 ---
 
 # Vellum Editorial System

@@ -4,7 +4,7 @@ title: Sequoia Progress Form
 description: Clean, professional multi-step form system with green progress indicators and warm orange CTAs
 tags: [light, minimal, form, enterprise, professional]
 colors: ["#FFFFFF", "#00875A", "#F35B04", "#333333", "#6B6B6B", "#E5E5E5"]
-created: 2025-01-04
+created: 2026-01-04
 ---
 
 # Sequoia Progress Form

@@ -4,7 +4,7 @@ title: Sage Grove System
 description: A warm, nurturing design system with earthy greens and creamy neutrals for wellness and care applications
 tags: [light, warm, organic, wellness, friendly, accessible]
 colors: ["#4A5D4A", "#F5F2EC", "#E8E4DC", "#2D3B2D", "#6B7B6B"]
-created: 2025-02-03
+created: 2026-02-08
 ---
 
 # Sage Grove System

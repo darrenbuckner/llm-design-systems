@@ -4,7 +4,7 @@ title: Pearl Scheduler
 description: A clean, minimal scheduling interface with stark black-and-white contrast and rounded pill elements
 tags: [light, minimal, scheduling, mobile-first, high-contrast]
 colors: ["#FFFFFF", "#F5F5F5", "#000000", "#6B6B6B", "#E5E5E5", "#FF3B30"]
-created: 2025-01-04
+created: 2026-01-04
 ---
 
 # Pearl Scheduler

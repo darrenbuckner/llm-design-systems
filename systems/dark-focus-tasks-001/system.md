@@ -4,7 +4,7 @@ title: Focus Tasks Dark
 description: Clean, focused task-oriented dark mode interface emphasizing calm productivity through generous spacing and restrained color palette
 tags: dark, minimal, productivity, tasks, clean
 colors: #FDB022, #1C1C1E, #2C2C2E, #3A3A3C, #FFFFFF, #8E8E93
-created: 2024-12-14
+created: 2025-12-14
 ---
 
 # Focus Tasks Dark

@@ -4,7 +4,7 @@ title: Aqua Glass System
 description: A fluid, ethereal interface featuring soft gradient backgrounds with glassmorphic dark overlays and luminous accent elements.
 tags: [gradient, dark-overlay, glassmorphism, onboarding, premium, fluid]
 colors: ["#5BB8E0", "#3A9CC4", "#2D7A9E", "#1A1A1A", "#2D2D2D", "#FFFFFF"]
-created: 2025-01-22
+created: 2026-01-22
 ---
 
 # Aqua Glass System

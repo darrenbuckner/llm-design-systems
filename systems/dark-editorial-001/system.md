@@ -4,7 +4,7 @@ title: Inkwell Editorial
 description: A sophisticated dark editorial design with elegant mixed typography
 tags: [dark, editorial, serif, elegant, publication]
 colors: ["#000000", "#FFFFFF", "#7DD3C8", "#E07A5F", "#9CA3AF"]
-created: 2026-01-14
+created: 2025-12-23
 ---
 
 # Inkwell Editorial

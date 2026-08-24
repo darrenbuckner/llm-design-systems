@@ -4,7 +4,7 @@ title: Clover Classroom
 description: A warm, approachable learning interface with soft edges, playful illustrations, and comprehensive course components
 tags: [light, friendly, warm, minimal, educational, courses]
 colors: ["#FFFFFF", "#F5F0E8", "#FFEFD5", "#1A1A1A", "#6B7280", "#22C55E", "#E5E7EB"]
-created: 2025-01-15
+created: 2026-01-16
 ---
 
 # Clover Classroom

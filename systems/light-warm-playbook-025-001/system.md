@@ -4,7 +4,7 @@ title: Terracotta Playbook
 description: Warm editorial layout with bold serif headings, soft peach backgrounds, coral CTAs, and numbered card grids for structured content
 tags: [light, warm, editorial, serif, cards, structured, playbook]
 colors: ["#F5EDE4", "#E8573D", "#1A1A1A", "#FFFFFF", "#5C5C5C", "#E8E0D6"]
-created: 2026-03-20
+created: 2026-04-09
 ---
 
 # Terracotta Playbook

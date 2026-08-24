@@ -4,7 +4,7 @@ title: Opportunity Blue System
 description: Bold campaign-style design with high-impact blue, strong condensed typography, and confident messaging
 tags: [light, bold, campaign, high-contrast, editorial]
 colors: ["#0072CE", "#FFFFFF", "#1A1A1A", "#C41E3A", "#8B2D8B"]
-created: 2024-12-19
+created: 2025-12-20
 ---
 
 # Opportunity Blue System

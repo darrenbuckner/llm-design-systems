@@ -1,3 +1,12 @@
+---
+id: dialog-dark-001
+title: Dialog Dark Design System
+description: "Sophisticated dark theme with layered surfaces, serif headings, and professional modal dialogs."
+tags: [dark, professional]
+colors: ["#0D0D0D","#1E1E1E","#2B2B2B","#5B9FD5","#E8E6E1"]
+created: 2025-12-12
+---
+
 # Dialog Dark Design System
 
 ## Color Palette

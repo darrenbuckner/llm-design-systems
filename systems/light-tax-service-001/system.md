@@ -4,7 +4,7 @@ title: Sage Financial System
 description: Clean, trustworthy design for financial services with green accents and friendly illustrations
 tags: [light, minimal, professional, friendly]
 colors: [#2D5B3F, #F8F6F3, #4A6B56, #1A1A1A]
-created: 2024-01-20
+created: 2026-01-21
 ---
 
 # Sage Financial System

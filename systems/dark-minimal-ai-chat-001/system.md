@@ -4,7 +4,7 @@ title: Dark Minimal AI Chat
 description: Sophisticated dark mode design system with warm terracotta accents and nearly monochromatic palette for focused conversation interfaces
 tags: dark, minimal, ai-chat, sophisticated
 colors: #D4714A, #1A1A1A, #2A2A2A, #F5F5F5, #A0A0A0, #4A90D9
-created: 2024-12-14
+created: 2025-12-14
 ---
 
 # Dark Minimal AI Chat

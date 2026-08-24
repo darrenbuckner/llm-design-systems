@@ -4,7 +4,7 @@ title: Sandstone Assistant System
 description: Warm, approachable modal interface with split-panel layout combining marketing content and product preview
 tags: [light, warm, modal, split-layout, professional, approachable]
 colors: ["#D4C8B8", "#FFFFFF", "#1A1A1A", "#2563EB", "#DA7756", "#F5F5F5"]
-created: 2025-06-29
+created: 2025-12-29
 ---
 
 # Sandstone Assistant System

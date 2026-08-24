@@ -4,7 +4,7 @@ title: Tidal Wellness System
 description: A warm, organic design system featuring watercolor aesthetics, nature imagery, and calming earth tones for wellness and coaching platforms
 tags: [light, organic, warm, nature, wellness, calm, watercolor]
 colors: ["#1A5F5A", "#E86B4A", "#F7A659", "#F5F0E8", "#2C3E50", "#6B7B8A"]
-created: 2025-01-13
+created: 2026-01-13
 ---
 
 # Tidal Wellness System

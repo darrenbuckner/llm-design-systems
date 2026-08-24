@@ -4,7 +4,7 @@ title: Vault Native Dark
 description: A native mobile dark theme with vibrant category icons and subtle elevated surfaces
 tags: [dark, native, mobile-first, minimal, system-ui]
 colors: ["#000000", "#1C1C1E", "#2C2C2E", "#007AFF", "#30D158", "#FF9F0A", "#FF453A", "#32ADE6"]
-created: 2025-01-10
+created: 2026-01-10
 ---
 
 # Vault Native Dark

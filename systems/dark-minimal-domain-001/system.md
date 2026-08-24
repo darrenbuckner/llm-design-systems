@@ -4,7 +4,7 @@ title: Carbon Domain System
 description: Clean dark interface with vibrant accent colors for domain marketplace platforms
 tags: [dark, minimal, professional, marketplace]
 colors: [#1a1a1a, #ff4444, #00cc66, #4488ff, #ffffff]
-created: 2024-12-28
+created: 2026-01-10
 ---
 
 # Carbon Domain System

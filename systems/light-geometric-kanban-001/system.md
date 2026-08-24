@@ -4,7 +4,7 @@ title: Bauhaus Board System
 description: A playful geometric design system with bold primary colors, hand-drawn textures, and neobrutalist card styling
 tags: [light, geometric, playful, neobrutalist, kanban]
 colors: ["#F5E6DC", "#E63946", "#1D3557", "#FFDD00", "#FFFFFF"]
-created: 2025-01-03
+created: 2026-01-04
 ---
 
 # Bauhaus Board System

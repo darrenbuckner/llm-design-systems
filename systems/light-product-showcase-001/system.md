@@ -4,7 +4,7 @@ title: Silver Precision
 description: A pristine, ultra-minimal product showcase system built on massive typography, generous whitespace, and selective color accents against warm off-white backgrounds.
 tags: light, minimal, product, showcase, editorial, premium, clean
 colors: ["#F5F5F7", "#1D1D1F", "#0077B5", "#007B7F", "#6633CC", "#86868B"]
-created: 2026-03-05
+created: 2026-03-08
 ---
 
 # Silver Precision

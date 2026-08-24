@@ -4,7 +4,7 @@ title: Midnight Collective
 description: A bold dark editorial system with electric violet and vibrant orange accents, featuring dramatic statistics and organic blob shapes
 tags: [dark, bold, editorial, violet, orange, stats, minimal]
 colors: ["#000000", "#FFFFFF", "#A855F7", "#E84715", "#9333EA", "#C8A97A"]
-created: 2025-01-03
+created: 2026-01-04
 ---
 
 # Midnight Collective

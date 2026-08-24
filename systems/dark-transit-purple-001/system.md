@@ -4,7 +4,7 @@ title: Amethyst Dispatch System
 description: A dark, gradient-rich mobile interface with purple-to-violet accents, lavender CTAs, and magenta highlights — built for real-time service selection and map-driven workflows.
 tags: dark, gradient, modern, mobile-first, glass, cards
 colors: ["#1A1025", "#2A2038", "#7B61FF", "#C850C0", "#B8A0FF", "#FFFFFF"]
-created: 2026-02-23
+created: 2026-02-24
 ---
 
 # Amethyst Dispatch System

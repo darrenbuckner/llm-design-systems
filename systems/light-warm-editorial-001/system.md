@@ -4,7 +4,7 @@ title: Copper Warmth
 description: Sophisticated editorial design with warm cream background, bold serif typography, and vibrant copper accent
 tags: [light, warm, editorial, serif, premium, minimal]
 colors: ["#F5EDE4", "#1A1A1A", "#E8DED3", "#F97316", "#6B6B6B", "#FFFFFF"]
-created: 2025-01-17
+created: 2026-01-18
 ---
 
 # Copper Warmth

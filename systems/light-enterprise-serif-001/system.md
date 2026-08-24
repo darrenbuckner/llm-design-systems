@@ -4,7 +4,7 @@ title: Sterling Enterprise System
 description: Premium enterprise aesthetic combining elegant serif headlines with clean sans-serif body text on a subtle grid background
 tags: [light, enterprise, premium, serif-headlines, minimal, professional]
 colors: ["#1E3A5F", "#FFFFFF", "#F8F9FA", "#6B7B8C", "#2C3E50", "#E8ECEF"]
-created: 2025-01-13
+created: 2026-01-13
 ---
 
 # Sterling Enterprise System

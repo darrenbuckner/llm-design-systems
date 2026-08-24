@@ -4,7 +4,7 @@ title: Vitality Editorial System
 description: Illustrated editorial design system featuring 3D-style health and wellness iconography with a muted teal-coral palette
 tags: [light, illustrated, editorial, wellness, colorful]
 colors: ["#6B9B9B", "#E8A87C", "#1E3A3A", "#F5F5F5", "#D4E5E5", "#FFDE59"]
-created: 2025-12-26
+created: 2025-12-27
 ---
 
 # Vitality Editorial System

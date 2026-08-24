@@ -4,7 +4,7 @@ title: Meadow Workbook System
 description: A warm, approachable educational design system with soft blue accents and friendly typography
 tags: [light, friendly, educational, workbook, minimal]
 colors: ["#1A1A1A", "#6CB4D4", "#F0F7FA", "#FFFFFF", "#666666", "#E8E8E8"]
-created: 2025-01-13
+created: 2026-01-13
 ---
 
 # Meadow Workbook System

@@ -4,7 +4,7 @@ title: Copper Starburst
 description: A dark developer-focused aesthetic with warm copper accents and retro starburst decorative elements
 tags: [dark, retro, developer, bold, expressive]
 colors: ["#2D2A26", "#E07A3D", "#8B5A3D", "#BFBAB4", "#7A7571"]
-created: 2025-01-09
+created: 2026-01-10
 ---
 
 # Copper Starburst

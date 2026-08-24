@@ -4,7 +4,7 @@ title: Horizon Advisory System
 description: Bold gradient typography with mint accents for professional community platforms
 tags: [light, bold, gradient, professional, modern]
 colors: ["#1E3A8A", "#8B5CF6", "#A78BFA", "#6EE7B7", "#FFFFFF", "#0F172A"]
-created: 2024-12-19
+created: 2025-12-20
 ---
 
 # Horizon Advisory System

@@ -4,7 +4,7 @@ title: Carbon Pantry
 description: A clean, high-contrast dark interface for retail and grocery account management with subtle card elevation and clear information hierarchy.
 tags: [dark, minimal, mobile, retail, account-management]
 colors: ["#000000", "#1C1C1E", "#2C2C2E", "#FFFFFF", "#0A84FF", "#E91E8D"]
-created: 2025-01-10
+created: 2026-01-10
 ---
 
 # Carbon Pantry

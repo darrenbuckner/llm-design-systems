@@ -4,7 +4,7 @@ title: Sunrise Product System
 description: A warm, inviting light theme with soft gradients and purple accents for friendly SaaS products
 tags: [light, gradient, warm, friendly, modern, saas]
 colors: ["#7C3AED", "#EC4899", "#F59E0B", "#1F2937", "#F8F5F2", "#FFFFFF"]
-created: 2025-01-10
+created: 2026-01-10
 ---
 
 # Sunrise Product System

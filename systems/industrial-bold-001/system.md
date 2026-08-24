@@ -4,7 +4,7 @@ title: Runway Industrial System
 description: Bold industrial marketing aesthetic with heavy typography, neon accents, and photographic backgrounds
 tags: [dark, bold, industrial, photographic, marketing]
 colors: ["#D4FF00", "#E4B8FF", "#1A1A1A", "#FFFFFF"]
-created: 2025-12-16
+created: 2025-12-17
 ---
 
 # Runway Industrial System

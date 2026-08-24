@@ -4,7 +4,7 @@ title: Cyan Bold System
 description: High-impact editorial design with vibrant cyan and bold serif typography
 tags: light, colorful, bold, editorial, high-contrast
 colors: #00BFFF, #000000, #FF4500, #FFFFFF, #1A1A1A, #F5F5F5
-created: 2025-01-07
+created: 2026-01-08
 ---
 
 # Cyan Bold System

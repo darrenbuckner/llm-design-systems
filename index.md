@@ -3381,3 +3381,35 @@ Editorial, institutional, and confident without being loud — closer to a well-
 
 ---
 
+## Juniper Workspace System (ID: `light-utility-workspace-043-001`)
+
+**Description:** A document-workspace interface built on near-total white, where a single desaturated juniper green carries every primary action and hairline gray borders do all the structural work that shadows would 
+
+**Tags:** `light`, `minimal`, `professional`, `cards`, `modern`, `sans`
+
+**Colors:** `#FFFFFF`, `#377C70`, `#1C1C1C`, `#EBEBEB`, `#F5C25E`
+
+**Design Tone:**
+Quiet, dense, and utility-first — an interface that gets out of the way of the user's own documents. The near-total absence of color makes the single juniper green read as unmistakably actionable, and the shadowless hairline construction gives it a flat, engineering-drawing calm rather than a soft consumer polish. It feels like a tool that expects to be used every day for years.
+
+**Usage Notes:**
+1. **Never add shadows to in-flow elements.** Cards, buttons, panels, and inputs are separated by border alone. If two surfaces need distinguishing, add a hairline, not elevation. The moment cards get a shadow this becomes a generic SaaS dashboard.
+
+2. **Green is a marker, not a palette.** Roughly one to three green elements per screenful — the primary button, a count badge, a focus ring. If green starts appearing in headings, links, icons, or backgrounds, the system is broken. Everything else is white, three grays, and near-black.
+
+3. **Inputs get a heavier border than cards.** `#7F7F7F` on inputs against `#D9D9D9` on cards is deliberate, not an inconsistency. It's how the system signals interactivity without color.
+
+4. **Do not introduce a second surface tone.** There is no `#FAFAFA` page background with white cards. The page and the cards are both `#FFFFFF`, and `#EBEBEB` is a fill for chips and hovered rows only — never a large area.
+
+5. **Hierarchy is weight plus ink, at nearly the same size.** A 20px/700 `#1C1C1C` title over a 16px/400 `#707070` description is the core pattern. Resist widening the size gap; the density is the point.
+
+6. **The amber badge is singular.** One tier badge per screen, top-left near the mark. It is never a button, never a background fill, and never joined by a second amber element.
+
+7. **Hover changes color, never position.** No lift, no scale, no shadow bloom. Card hover darkens the border; button hover darkens the fill; row hover adds the `#EBEBEB` tint. 120ms, color properties only.
+
+8. **Keep the sidebar labels muted at rest.** Active state promotes ink to `#1C1C1C` while sharing the same `#EBEBEB` fill as hover — that ink shift is the entire active affordance. Do not add a left accent bar or a green fill.
+
+[View Full System Definition](systems/light-utility-workspace-043-001/system.md)
+
+---
+

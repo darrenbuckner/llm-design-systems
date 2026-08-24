@@ -4,7 +4,7 @@ title: Social Connect Dark
 description: Modern, playful dark theme with vibrant illustrations and gaming culture influence balancing professionalism with dynamic social energy
 tags: dark, social, gaming, playful, community
 colors: #5865F2, #1E1F22, #2B2D31, #FFFFFF, #B5BAC1, #00AFF4, #00D9FF, #3BA55D
-created: 2024-12-14
+created: 2025-12-14
 ---
 
 # Social Connect Dark

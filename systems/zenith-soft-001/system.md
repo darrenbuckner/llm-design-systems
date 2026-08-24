@@ -1,3 +1,12 @@
+---
+id: zenith-soft-001
+title: Zenith Soft Design System
+description: "Empathetic minimalism with soft neutral backgrounds, centered layouts, and serif typography for wellness apps."
+tags: [light, minimal, warm, editorial, professional]
+colors: ["#F5F3F0","#1A1A1A"]
+created: 2025-12-12
+---
+
 # Zenith Soft Design System
 
 ## Visual Style

@@ -4,7 +4,7 @@ title: Sandstone Editorial System
 description: A warm, typographically-rich editorial design system with cream surfaces, bold serif headlines, and restrained accent color
 tags: [light, editorial, warm, minimal, serif, premium]
 colors: ["#F5F0E8", "#191919", "#C4784A", "#E8E0D4", "#6B6256", "#000000"]
-created: 2025-02-10
+created: 2026-01-18
 ---
 
 # Sandstone Editorial System

@@ -4,7 +4,7 @@ title: Ivory Editorial
 description: A clean, high-contrast monochrome system pairing bold serif headlines with minimal sans-serif body text for a refined editorial SaaS feel.
 tags: light, editorial, minimal, serif, monochrome, premium, professional, SaaS
 colors: ["#FFFFFF", "#000000", "#F7F7F7", "#E5E5E5", "#666666", "#999999"]
-created: 2026-02-21
+created: 2026-02-23
 ---
 
 # Ivory Editorial

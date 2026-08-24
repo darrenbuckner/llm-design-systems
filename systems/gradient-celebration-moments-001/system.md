@@ -4,7 +4,7 @@ title: Celebration Moments
 description: Bold, celebratory design system with vibrant gradients and supersized typography treating everyday moments as special occasions
 tags: gradient, colorful, celebration, bold, mobile-first
 colors: #DD1A1A, #E84B8A, #F36856, #F7E5E8, #F24E4E, #FFFFFF
-created: 2024-12-14
+created: 2025-12-14
 ---
 
 # Celebration Moments

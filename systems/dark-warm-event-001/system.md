@@ -4,7 +4,7 @@ title: Ember Events
 description: A warm, inviting dark theme with rich burgundy-brown tones and clean modern typography
 tags: [dark, warm, event, minimal, professional]
 colors: ["#1A0A0A", "#2D1810", "#F97316", "#FFFFFF", "#A8A29E"]
-created: 2025-01-16
+created: 2026-01-16
 ---
 
 # Ember Events

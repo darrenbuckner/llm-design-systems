@@ -4,7 +4,7 @@ title: Campfire Warm System
 description: A friendly, warm data visualization system with cream backgrounds, orange accents, and playful rounded elements
 tags: [light, warm, friendly, data-visualization, rounded]
 colors: ["#F5EDE4", "#F97316", "#C9A07A", "#4B4B4B", "#1A1A1A", "#FFFFFF"]
-created: 2024-12-23
+created: 2025-12-24
 ---
 
 # Campfire Warm System

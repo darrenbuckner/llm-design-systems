@@ -4,7 +4,7 @@ title: Midnight Audio Hub
 description: A sleek, dark-themed media player interface with vibrant content cards and subtle depth
 tags: [dark, media, cards, mobile-first, entertainment]
 colors: ["#000000", "#1C1C1E", "#2C2C2E", "#FFFFFF", "#8E8E93", "#FF9500"]
-created: 2025-01-04
+created: 2026-01-04
 ---
 
 # Midnight Audio Hub

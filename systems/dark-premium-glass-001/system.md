@@ -4,7 +4,7 @@ title: Premium Glass Rewards
 description: Sophisticated dark UI with glass morphism effects for premium financial experiences featuring translucent panels with subtle blur
 tags: dark, glass, fintech, premium, sophisticated
 colors: #0A1628, #B3D4E8, #8EA99E, #FFFFFF, #8B95A3, #D4A574
-created: 2024-12-14
+created: 2025-12-14
 ---
 
 # Premium Glass Rewards

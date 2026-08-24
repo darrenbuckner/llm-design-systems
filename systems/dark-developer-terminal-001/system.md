@@ -4,7 +4,7 @@ title: Carbon Terminal System
 description: A minimal dark interface with monospace typography and terminal-inspired aesthetics for developer tools
 tags: [dark, minimal, developer, monospace, terminal]
 colors: ["#000000", "#171717", "#262626", "#A3A3A3", "#FFFFFF", "#525252"]
-created: 2025-02-04
+created: 2026-02-08
 ---
 
 # Carbon Terminal System

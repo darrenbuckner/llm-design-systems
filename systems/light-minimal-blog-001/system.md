@@ -4,7 +4,7 @@ title: Parchment Editorial System
 description: Clean, minimal blog design with warm neutrals and subtle accents
 tags: [light, minimal, editorial, warm-neutrals]
 colors: [#FFFFFF, #F5F5F5, #E8D5C4, #8B5CF6, #333333]
-created: 2024-01-10
+created: 2026-01-23
 ---
 
 # Parchment Editorial System

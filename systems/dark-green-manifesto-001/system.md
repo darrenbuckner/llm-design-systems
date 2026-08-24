@@ -4,7 +4,7 @@ title: Forest Principles
 description: A sophisticated dark green system with cream cards and numbered structure
 tags: [dark, green, minimal, structured, premium]
 colors: ["#2D5547", "#F5F3EF", "#1E3A2F", "#4A7C66"]
-created: 2026-01-06
+created: 2026-01-08
 ---
 
 # Forest Principles Design System

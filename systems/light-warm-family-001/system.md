@@ -4,7 +4,7 @@ title: Honeycomb Family System
 description: A warm, approachable design system with vibrant magenta and teal accents on a soft cream canvas
 tags: [light, warm, friendly, family, rounded, approachable]
 colors: ["#C7175A", "#007B7F", "#F5EDE4", "#D4EDE8", "#1A1A1A", "#666666"]
-created: 2025-01-10
+created: 2026-01-10
 ---
 
 # Honeycomb Family System

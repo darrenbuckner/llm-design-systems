@@ -4,7 +4,7 @@ title: Evergreen Ledger
 description: Clean, trustworthy light interface with emerald green accents, progress indicators, and organized card-based layouts for financial clarity
 tags: [light, minimal, professional, card-based, mobile-first, data-visualization]
 colors: ["#1A1A1A", "#C4203C", "#1E7D4D", "#F7F7F7", "#FFFFFF"]
-created: 2025-01-11
+created: 2026-01-12
 ---
 
 # Evergreen Ledger

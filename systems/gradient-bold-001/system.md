@@ -4,7 +4,7 @@ title: Neon Spectrum Design System
 description: Vibrant gradient-driven system with chromatic aberration effects and ultra-bold typography
 tags: [gradient, colorful, bold, modern, music]
 colors: [#00E5FF, #FF006E, #8B5CF6, #1A1A1A]
-created: 2024-12-09
+created: 2025-12-09
 ---
 
 # Neon Spectrum Design System

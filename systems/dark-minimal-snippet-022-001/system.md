@@ -4,7 +4,7 @@ title: Carbon Notes
 description: A dark minimal interface for capturing and organizing text fragments with teal accents
 tags: [dark, minimal, note-taking, monospace, teal-accent]
 colors: ["#1A1D21", "#2A2F35", "#3ECFB2", "#FFFFFF", "#8A9199", "#F0C24E"]
-created: 2025-01-10
+created: 2026-01-10
 ---
 
 # Carbon Notes

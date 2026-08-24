@@ -4,7 +4,7 @@ title: Assistant Service Design System
 description: A friendly, approachable design system with teal accent and warm neutrals for service platforms
 tags: light, friendly, teal-accent, card-based, rounded
 colors: #1a9c9c, #e8f9e6, #2b2d2e, #f5f4f2
-created: 2024-12-14
+created: 2025-12-14
 ---
 
 # Assistant Service Design System

@@ -4,7 +4,7 @@ title: Nordic Social Design System
 description: Warm, inviting design system with beige surfaces, bold typography, and social media-inspired card layouts
 tags: light, warm, social, modern, playful
 colors: #1C1C1C, #E8DCC8, #FFFFFF, #F0E5D4, #FFD166
-created: 2024-12-08
+created: 2025-12-08
 ---
 
 # Nordic Social Design System

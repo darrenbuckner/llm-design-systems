@@ -4,7 +4,7 @@ title: Ember Forge System
 description: A bold, high-contrast dark theme with warm coral accents and confident typography for creative agencies and startups.
 tags: [dark, bold, agency, high-contrast, coral-accent, professional]
 colors: ["#000000", "#FFFFFF", "#FF6B4A", "#1A1A1A", "#666666", "#333333"]
-created: 2025-01-08
+created: 2026-01-10
 ---
 
 # Ember Forge System

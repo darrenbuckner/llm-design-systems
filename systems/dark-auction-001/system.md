@@ -4,7 +4,7 @@ title: Cinder Auction System
 description: Dark-themed auction marketplace with vibrant orange CTAs and playful illustrations
 tags: dark, auction, vibrant-accents, playful
 colors: #1C1E21, #2A2D31, #FF6B35, #FFFFFF, #9CA3AF
-created: 2025-01-07
+created: 2026-01-08
 ---
 
 # Cinder Auction System

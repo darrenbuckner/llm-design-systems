@@ -4,7 +4,7 @@ title: Forge Builder System
 description: A sophisticated dark interface for creative tool builders with subtle depth and clean hierarchy
 tags: [dark, minimal, mobile-first, builder, input-focused]
 colors: ["#000000", "#1A1A1A", "#2A2A2A", "#3A3A3A", "#FFFFFF", "#A0A0A0", "#666666"]
-created: 2025-01-04
+created: 2026-01-04
 ---
 
 # Forge Builder System

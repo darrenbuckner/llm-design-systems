@@ -4,7 +4,7 @@ title: Coral Bloom System
 description: A warm, inviting gradient-to-light design system with friendly typography and accessible FAQ patterns
 tags: [gradient, light, warm, friendly, SaaS]
 colors: ["#F83B72", "#FF6B8A", "#4B5EFF", "#1A1A2E", "#F8F9FA", "#6B7280"]
-created: 2025-01-10
+created: 2026-01-10
 ---
 
 # Coral Bloom System

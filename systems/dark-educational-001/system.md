@@ -4,7 +4,7 @@ title: Carbon Academy
 description: A sophisticated dark theme with warm accents for educational platforms and course content
 tags: [dark, educational, warm-accent, professional, content-rich]
 colors: ["#0D0D0D", "#1A1A1A", "#FFFFFF", "#F5A623", "#6B7280"]
-created: 2025-01-16
+created: 2026-01-16
 ---
 
 # Carbon Academy

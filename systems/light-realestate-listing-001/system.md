@@ -4,7 +4,7 @@ title: Riverstone Listings
 description: Clean, card-based property listing interface with subtle shadows and clear information hierarchy
 tags: [light, minimal, cards, mobile-first, real-estate]
 colors: ["#FFFFFF", "#F7F7F7", "#2D2D2D", "#6B7280", "#007A5C", "#C82333", "#E5E7EB"]
-created: 2025-01-15
+created: 2026-01-16
 ---
 
 # Riverstone Listings

@@ -1,3 +1,12 @@
+---
+id: block-brutalist-001
+title: Block Brutalist Design System
+description: "Radical simplicity with pure black background, white text, maximum contrast. No grays, no accents, no gradients."
+tags: [dark, minimal, modern, brutalist]
+colors: ["#000000","#FFFFFF"]
+created: 2025-12-12
+---
+
 # Block Brutalist Design System
 
 ## Visual Style

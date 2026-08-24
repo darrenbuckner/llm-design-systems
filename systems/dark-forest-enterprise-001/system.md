@@ -4,7 +4,7 @@ title: Forest Grove System
 description: Deep teal enterprise aesthetic with luminous accents and clean modern typography
 tags: [dark, premium, enterprise, minimal, professional]
 colors: ["#0D3D38", "#FFFFFF", "#000000", "#4AE8C1", "#9B6FD9"]
-created: 2024-12-19
+created: 2025-12-20
 ---
 
 # Forest Grove System

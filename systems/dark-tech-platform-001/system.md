@@ -4,7 +4,7 @@ title: Tech Platform Hero
 description: Enterprise-grade technical sophistication with bright accent colors and playful isometric illustrations balancing developer personality with infrastructure authority
 tags: dark, tech, enterprise, isometric, developer
 colors: #00ED64, #0A2E3C, #154455, #00D4FF, #FFFFFF, #FF9900
-created: 2024-12-14
+created: 2025-12-14
 ---
 
 # Tech Platform Hero

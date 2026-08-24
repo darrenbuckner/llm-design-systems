@@ -4,7 +4,7 @@ title: Typewriter Landing System
 description: A brutalist-minimal landing page system built on monospace typography, generous whitespace, and stark contrast between dark text and white surfaces.
 tags: [light, minimal, monospace, brutalist, landing-page, clean]
 colors: ["#1B2332", "#4A5568", "#8492A6", "#E2E8F0", "#F0F2F5", "#FFFFFF"]
-created: 2026-02-07
+created: 2026-02-08
 ---
 
 # Typewriter Landing System

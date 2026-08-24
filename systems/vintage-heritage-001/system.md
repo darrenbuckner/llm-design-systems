@@ -4,7 +4,7 @@ title: Heritage Emporium System
 description: A warm, vintage-inspired design system with elegant script typography, cream backgrounds, and rich burgundy accents perfect for premium artisanal brands.
 tags: [light, warm, vintage, premium, elegant, serif]
 colors: ["#F5F0E6", "#8B2635", "#2C1810", "#C4A962", "#4A4A4A"]
-created: 2024-12-22
+created: 2025-12-22
 ---
 
 # Heritage Emporium System

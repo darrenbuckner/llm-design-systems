@@ -4,7 +4,7 @@ title: Carbon Ledger
 description: A pure black finance interface with colorful category indicators and clean information hierarchy
 tags: [dark, mobile-first, finance, minimal, high-contrast]
 colors: ["#000000", "#1C1C1E", "#2C2C2E", "#FFFFFF", "#F87171", "#4ADE80"]
-created: 2026-01-11
+created: 2026-01-12
 ---
 
 # Carbon Ledger

@@ -4,7 +4,7 @@ title: Carbon Flow System
 description: Minimalist dark interface with vibrant accent highlights for focus apps
 tags: [dark, minimal, zen, productivity]
 colors: ['#3A3A3A', '#FFFFFF', '#F5A623', '#4CD964']
-created: 2026-01-12
+created: 2026-01-13
 ---
 
 # Carbon Flow System

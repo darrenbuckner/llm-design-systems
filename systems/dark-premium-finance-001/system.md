@@ -4,7 +4,7 @@ title: Obsidian Elite System
 description: A sophisticated dark premium design system featuring elegant serif headlines, clean sans-serif body text, and high-contrast black and white palette
 tags: [dark, premium, minimal, high-contrast, elegant, financial, serif-display]
 colors: ["#000000", "#FFFFFF", "#A0A0A0", "#1A1A1A", "#666666"]
-created: 2025-01-20
+created: 2025-12-20
 ---
 
 # Obsidian Elite System

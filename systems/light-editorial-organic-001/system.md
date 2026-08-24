@@ -4,7 +4,7 @@ title: Paperback Editorial System
 description: A light editorial design system featuring large serif headlines, organic accents, and soft neutral tones
 tags: [light, editorial, serif, organic, minimal]
 colors: ["#E8E5E1", "#1C1C1C", "#F5D647", "#FFFFFF", "#6B6B6B"]
-created: 2025-01-06
+created: 2026-01-08
 ---
 
 # Paperback Editorial System

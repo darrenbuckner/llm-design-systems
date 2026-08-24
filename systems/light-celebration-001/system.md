@@ -4,7 +4,7 @@ title: Meadow Celebration System
 description: A playful, organic design system featuring soft greens, coral accents, and flowing abstract shapes for celebratory content
 tags: [light, colorful, playful, organic, celebration, cards]
 colors: ["#8BC78B", "#4A90D9", "#F5B8A8", "#D6E4F0", "#FF8A70", "#1A1A1A"]
-created: 2024-12-17
+created: 2025-12-18
 ---
 
 # Meadow Celebration System

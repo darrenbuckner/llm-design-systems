@@ -4,7 +4,7 @@ title: Void Interface
 description: An ultra-minimal dark design system with pure black backgrounds and subtle purple accents
 tags: [dark, minimal, monochromatic, mobile-first, sleek]
 colors: ["#000000", "#FFFFFF", "#8B5CF6", "#1C1C1E", "#2C2C2E", "#6B7280"]
-created: 2025-01-10
+created: 2026-01-10
 ---
 
 # Void Interface

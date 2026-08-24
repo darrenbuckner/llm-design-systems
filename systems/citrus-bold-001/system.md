@@ -4,7 +4,7 @@ title: Citrus Pop System
 description: A vibrant, playful design system featuring bold electric blue backgrounds with sunny yellow accents and energetic green highlights
 tags: [light, colorful, playful, bold, startup]
 colors: ["#3B6BF5", "#FFD93D", "#3DEB64", "#FFFFFF", "#1A1A1A"]
-created: 2024-12-17
+created: 2025-12-18
 ---
 
 # Citrus Pop System

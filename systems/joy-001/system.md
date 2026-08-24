@@ -1,3 +1,12 @@
+---
+id: joy-001
+title: Joy Design System
+description: "Warm, approachable design with coral accents, soft teal, and cream backgrounds. Friendly and optimistic."
+tags: [light, minimal, modern, warm, professional, gradient]
+colors: ["#FF8B7B","#5ECEC6","#2B3F5C","#FFF9F5"]
+created: 2025-12-12
+---
+
 # Joy Design System
 
 A comprehensive design system for use in AI-assisted design.

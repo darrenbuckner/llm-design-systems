@@ -4,7 +4,7 @@ title: Obsidian Publisher System
 description: Dark publishing interface with bold red accents and clean typography
 tags: [dark, minimal, publishing, high-contrast]
 colors: [#000000, #FFFFFF, #E53E3E, #F7F7F7]
-created: 2024-12-19
+created: 2026-01-13
 ---
 
 # Obsidian Publisher System

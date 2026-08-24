@@ -4,7 +4,7 @@ title: Ink Terminal
 description: A stark black and white terminal-inspired design system with monospace typography and dashed border motifs
 tags: [dark, minimal, technical, monospace, brutalist]
 colors: ["#000000", "#FFFFFF", "#E07B54", "#4A6CF7", "#E74C3C", "#333333"]
-created: 2025-01-08
+created: 2026-01-09
 ---
 
 # Ink Terminal

@@ -4,7 +4,7 @@ title: Riviera Editorial System
 description: A refined, warm-neutral design system with editorial sophistication and premium lifestyle aesthetics
 tags: [light, warm, editorial, premium, minimal, sophisticated]
 colors: ["#1A2B4A", "#7B8EA8", "#E8E4DE", "#F5F2ED", "#C4B5A0", "#3D4F6F"]
-created: 2024-12-28
+created: 2025-12-29
 ---
 
 # Riviera Editorial System

@@ -4,7 +4,7 @@ title: Saffron Bold
 description: A high-confidence, monochromatic golden-yellow landing system with bold typography and zero visual clutter.
 tags: light, bold, warm, minimal, monochromatic, landing-page, playful, confident
 colors: ["#EDBA0C", "#1A1A1A", "#5C5346", "#FFFFFF", "#D4A60A", "#3D3A33"]
-created: 2025-02-22
+created: 2026-02-23
 ---
 
 # Saffron Bold

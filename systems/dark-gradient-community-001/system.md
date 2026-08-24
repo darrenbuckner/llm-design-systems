@@ -4,7 +4,7 @@ title: Violet Horizon
 description: A sophisticated dark theme with vibrant pink-to-blue gradient accents, designed for modern community and educational platforms.
 tags: [dark, gradient, premium, community, purple, pink, blue]
 colors: ["#0D0B14", "#1A1625", "#E855A0", "#7C5CFF", "#3B82F6", "#F8F8FC"]
-created: 2025-01-15
+created: 2026-01-16
 ---
 
 # Violet Horizon

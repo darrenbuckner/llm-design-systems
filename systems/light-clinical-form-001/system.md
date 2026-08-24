@@ -4,7 +4,7 @@ title: Sage Clinic System
 description: A clean, accessible healthcare form interface with warm neutrals and teal accents
 tags: [light, minimal, healthcare, forms, accessible]
 colors: ["#2A9D8F", "#E76F51", "#FFFFFF", "#F8F7F5", "#1A1A1A", "#6B7280"]
-created: 2025-01-08
+created: 2026-01-08
 ---
 
 # Sage Clinic System

@@ -4,7 +4,7 @@ title: Void Search
 description: Ultra-minimal dark interface with stark black backgrounds and restrained typography for search-focused applications.
 tags: [dark, minimal, search, stark, monochrome]
 colors: ["#000000", "#FFFFFF", "#A3A3A3", "#171717", "#262626", "#3B82F6"]
-created: 2025-01-10
+created: 2026-01-10
 ---
 
 # Void Search

@@ -4,7 +4,7 @@ title: Woodcut Editorial System
 description: A minimal, high-contrast design system featuring bold serif typography and hand-drawn illustration aesthetic
 tags: [light, minimal, editorial, illustration, high-contrast]
 colors: ["#FFFFFF", "#000000", "#4A4A4A", "#F5F5F5", "#E8E8E8"]
-created: 2024-12-26
+created: 2025-12-27
 ---
 
 # Woodcut Editorial System

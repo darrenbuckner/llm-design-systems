@@ -4,7 +4,7 @@ title: Midnight Editorial
 description: A bold, sophisticated dark theme with dramatic typography and editorial sensibility
 tags: [dark, editorial, podcast, bold, sophisticated, high-contrast]
 colors: ["#000000", "#1A1A1A", "#FFFFFF", "#B8B8B8", "#2A2A2A"]
-created: 2025-01-03
+created: 2026-01-04
 ---
 
 # Midnight Editorial

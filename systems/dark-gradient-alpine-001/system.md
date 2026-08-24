@@ -4,7 +4,7 @@ title: Alpine Depths
 description: A sophisticated dark gradient system featuring deep indigo-to-navy transitions with luminous white typography
 tags: [dark, gradient, premium, hero, immersive]
 colors: ["#1a0a3e", "#1e1a4a", "#2d4a8c", "#4a7ac7", "#ffffff", "#b8c5d9"]
-created: 2025-01-22
+created: 2026-01-22
 ---
 
 # Alpine Depths

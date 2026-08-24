@@ -4,7 +4,7 @@ title: Concrete Gallery System
 description: Brutalist showcase design with textured backgrounds, hand-drawn borders, and bold impact typography
 tags: light, brutalist, textured, bold, gallery
 colors: ["#E8E4DC", "#000000", "#FFFFFF", "#3A3A3A"]
-created: 2025-01-05
+created: 2026-01-06
 ---
 
 # Concrete Gallery System
