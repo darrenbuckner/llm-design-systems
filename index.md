@@ -3413,3 +3413,35 @@ Quiet, dense, and utility-first — an interface that gets out of the way of the
 
 ---
 
+## Tidewater Report System (ID: `light-serif-report-044-001`)
+
+**Description:** A long-form research report layout built on a pale aqua ground, where structure comes entirely from a five-step monochromatic teal ladder — no borders, no shadows, no rules anywhere on the page. A tra
+
+**Tags:** `light`, `editorial`, `professional`, `serif`, `minimal`, `cards`
+
+**Colors:** `#F5FAFB`, `#D1E9EC`, `#9DD1D3`, `#245860`, `#221F20`
+
+**Design Tone:**
+Measured, evidential, and quietly institutional — a document that expects to be cited rather than skimmed. The near-monochromatic teal ladder gives it a calm, cohesive weight without ever resorting to a border, and the serif display against geometric sans body reads as research rather than marketing. The single periwinkle spark is the only note of levity, and its scarcity is what makes it land.
+
+**Usage Notes:**
+1. **Borders are forbidden.** If two regions need separating, step one rung up the tonal ladder — `#F5FAFB` to `#E5F3F5`, or `#E5F3F5` to `#9DD1D3`. A single 1px border anywhere collapses this into a generic report template. The same applies to shadows and horizontal rules.
+
+2. **Never nest a Step 3 card on a Step 2 panel.** `#D1E9EC` on `#E5F3F5` is too small a contrast step to read. Cards sit on the page ground; bands sit inside panels. Skipping a rung is fine, going backward is not.
+
+3. **Serif and sans never trade jobs.** Serif for chapter titles, panel titles, and pull quotes. Sans for everything else, including every subhead. If a subhead is set in the serif, the page starts reading as a magazine feature instead of a research document.
+
+4. **The banded table is not a bar chart.** All left bands terminate at the same x, and the value block is a fixed-width right column. Do not width-scale bands to their percentages — the rhythm of three identical-width rows is the point, and scaling them makes an already-labeled figure redundant.
+
+5. **The periwinkle spark is rationed to one per page.** It marks model-derived content and nothing else. A second instance, or the same periwinkle appearing in type, a fill, or an icon set, destroys the monochrome discipline that carries the system.
+
+6. **Teal type appears in exactly one role.** The chapter eyebrow. Body copy, subheads, links, and labels are all `#232526` or `#221F20`. Emphasis is weight, never color.
+
+7. **The page ground is tinted, not white.** `#F5FAFB` against `#FFFFFF` is a small step but it's what keeps the panels from floating. Never substitute pure white for the page, and never place a pure-white surface on it.
+
+8. **Keep the footer band full-bleed and empty in the middle.** Two anchored ends, nothing between them, no radius, flush to the page edge. It is the system's only inverted region and it should stay that way.
+
+[View Full System Definition](systems/light-serif-report-044-001/system.md)
+
+---
+
