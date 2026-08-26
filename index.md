@@ -3445,3 +3445,75 @@ Measured, evidential, and quietly institutional — a document that expects to b
 
 ---
 
+## Chamomile Linen System (ID: `light-warm-serif-italic-045-001`)
+
+**Description:** A long-scroll marketing page built on a pale sage-cream ground, where every heading mixes a high-contrast serif roman with one emphasized phrase set in its cursive italic, and a single butter-gold pil
+
+**Tags:** `light`, `warm`, `professional`, `serif`, `premium`, `cards`
+
+**Colors:** `#F4F5EF`, `#28231D`, `#F0D087`, `#FFFFFF`, `#8A8A84`
+
+**Design Tone:**
+Warm, literate, and unhurried — a page that reads like considered prose rather than a conversion funnel. The cursive italic inside otherwise plain headings gives it a human, hand-set quality that a single-face system cannot reach, and the sage-tinted paper keeps it from feeling clinical the way a white ground would. The lone butter-gold pill does all the persuading, which is exactly why it works.
+
+**Usage Notes:**
+1. **Every serif heading must split roman and italic.** One word or short phrase in the italic, the rest roman, same size and same 400 weight. This is the system's signature and its most fragile rule — a page of all-roman headings is a generic warm-cream template, and a page of all-italic headings is illegible. If a heading has no phrase worth emphasizing, rewrite the heading.
+
+2. **Never bold a heading to create emphasis.** Display weight stays at 400 everywhere. The roman/italic contrast is the emphasis mechanism, and adding weight on top of it flattens the effect and coarsens the fine hairlines the serif depends on.
+
+3. **The gold pill never changes.** Same fill, same dark label, same pill radius on the cream ground and on the Espresso section. Do not invert it to cream-on-dark, do not outline it, and do not add a second accent color for a secondary action — the secondary is a bordered transparent pill.
+
+4. **One accent, roughly one gold element per screenful.** The pill, or a rating row. Gold never appears in headings, links, icons, borders, or backgrounds. It is a destination marker, not a palette.
+
+5. **The page ground is tinted, and white is a promotion.** `#F4F5EF` is the default surface; `#FFFFFF` is reserved for the raised panel and the overlay quote card, which is what makes those two elements read as lifted without a shadow. Never make the page white, and never make an ordinary card white.
+
+6. **No shadows, ever.** Cards separate by hairline and by the half-step between the three surface tones. A single box-shadow turns this into a stock SaaS landing page.
+
+7. **Alternate the two card fills in a stack.** `#FFFFFF` and `#F6F5F1` in sequence for consecutive testimonial cards. Three identical fills in a row read as one undifferentiated block, and adding rules between them instead is the wrong fix.
+
+8. **Centering is a panel-only privilege.** Everything on the page is left-aligned except the heading and body inside the raised white panel. Centering a section heading on the cream ground breaks the editorial voice immediately.
+
+9. **Icons stay line-drawn and naked.** 1.5px monochrome outline in Espresso, no fill, no color, no circular container or tinted chip behind them. Putting feature icons in colored circles is the single most common way this system gets ruined.
+
+10. **Never set vertical rhythm with a `padding: Xpx 0` shorthand on an element that also carries the gutter class.** Use `padding-top` and `padding-bottom`. The shorthand wins on source order, zeroes the horizontal gutter, and flushes content to the screen edge on mobile — while the header, which carries the gutter class alone, still looks correct, so the page reads as inconsistently indented rather than broken.
+
+[View Full System Definition](systems/light-warm-serif-italic-045-001/system.md)
+
+---
+
+## Buttermilk Outline System (ID: `light-warm-outline-046-001`)
+
+**Description:** A warm, faintly yellow system that runs in two surface modes from a single palette. **Marketing mode** sits on butter cream, gives cards a heavy near-black outline, and admits hand-drawn illustration 
+
+**Tags:** `light`, `warm`, `playful`, `cards`, `serif`, `modern`
+
+**Colors:** `#FFFFED`, `#F6F6E5`, `#1A1A1A`, `#ECD8FC`, `#EE7556`
+
+**Design Tone:**
+Warm and slightly handmade without being twee. The butter ground and the drawn ink outline give the marketing surface a sticker-like friendliness, while the product surface trades that for a quiet warm gray calm that can hold a dense list all day. The serif appearing on object titles inside an otherwise plain interface is what keeps the two halves recognizably the same product.
+
+**Usage Notes:**
+1. **Pick a mode and stay in it.** Butter ground plus ink-outlined cards, or Chrome ground plus soft-bordered panels. Mixing them — an ink-outlined card inside the app, a warm gray panel on the marketing page — is the fastest way to lose the system. The palette is shared; the border weight and the ground are not.
+
+2. **The 2px ink outline is marketing-only.** It is the single most recognizable thing about the front door and the single most wrong thing to put in the product UI, where separation comes from the Paper-to-Tan tonal step instead.
+
+3. **The serif is for three things only:** the marketing headline, the screen title, and the name of the object currently in focus. Setting a list row, nav label, or button in the serif immediately makes the interface look like a magazine instead of a tool.
+
+4. **Illustration colors never touch the UI.** Coral, amber, and blush exist inside the drawing and nowhere else — not as a button, a badge, a border, a chart series, or a link. If a marketing surface needs a colored element that is not illustration, it does not get one.
+
+5. **Product mode has no dark button.** The solid `#1A1A1A` button belongs to the marketing card. Inside the app the primary action is the quiet Paper button with a hairline border, which is why the lilac badge and the marker bars read as the only color.
+
+6. **Marker bars carry user color, not system state.** Red and blue on a list row mean "this belongs to that calendar or category," never error or info. Do not add a green success bar or reuse them for validation.
+
+7. **No shadows anywhere, in either mode.** Elevation is expressed by the ink outline in marketing and by the tonal ladder in product. Adding a shadow to the content panel or a product card flattens both modes at once.
+
+8. **Keep the panel inset asymmetric.** The content panel is inset from the top and right of the chrome and runs flush to the bottom. Insetting it evenly on all four sides makes it look like a floating modal rather than an application surface.
+
+9. **One lilac badge per screen.** Tier only, top of the sidebar, next to the wordmark. A second lilac element anywhere breaks the rule that product mode carries exactly one chromatic fill.
+
+10. **Anchor the illustration to the card, not the section.** It must overlap and break the card's corner. Positioning it against the section instead leaves it floating in empty ground beside the card, which loses the drawn, stuck-on quality entirely.
+
+[View Full System Definition](systems/light-warm-outline-046-001/system.md)
+
+---
+
