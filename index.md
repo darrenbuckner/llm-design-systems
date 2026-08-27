@@ -1821,25 +1821,35 @@ Use this system for interfaces requiring high visual impact and modern aesthetic
 
 ## Forest Principles Design System (ID: `dark-green-manifesto-001`)
 
-**Description:** A sophisticated dark green aesthetic built around structured content presentation with cream-colored cards on a rich forest gradient background. This system emphasizes clarity, hierarchy, and intentio
+**Description:** A statement interface built on a vertical forest-green gradient, where warm cream cards rise out of the field like pages set on a table and a numbered badge marks each principle in sequence. A serif m
 
-**Tags:** `dark`, `green`, `minimal`, `structured`, `premium`
+**Tags:** `dark`, `green`, `minimal`, `premium`, `cards`, `serif`
 
-**Colors:** `#2D5547`, `#F5F3EF`, `#1E3A2F`, `#4A7C66`, `#FFFFFF`
+**Colors:** `#4A7C66`, `#2D5547`, `#F5F3EF`, `#FFFFFF`, `#1A1A1A`
 
 **Design Tone:**
-This system projects sophistication and intentionality through its rich forest green palette and structured numbered framework. The warm cream cards against the deep green gradient create a premium, grounded aesthetic suitable for personal manifestos, principle frameworks, or mission statements. The generous spacing and clear hierarchy emphasize thoughtful reflection and strategic thinking.
+Considered, grounded, and quietly institutional. The deepening green field gives the page a sense of descent as you read, and the cream cards sitting on it feel like physical pages rather than interface. The serif masthead over sans principles is what separates it from a marketing page — it reads like something an organization committed to rather than something it is selling.
 
 **Usage Notes:**
-When implementing this system:
-- Use the gradient background as the page foundation
-- Maintain the numbered badge pattern for sequential content
-- Keep card backgrounds consistent (cream) for content hierarchy
-- Use serif fonts sparingly for main headings only
-- Ensure generous padding within cards for readability
-- Consider the numbered structure for any framework/principle-based content
-- Mobile: Reduce outer padding but maintain card internal spacing
-- The green palette works well for growth, sustainability, or personal development themes
+1. **The ground is a green gradient, not a cream page.** `#4A7C66` to `#2D5547` vertically. `#F5F3EF` is the *card* fill. Inverting the two — cream page with green cards — produces a completely different and much more ordinary system, and it is exactly the error the original spec described.
+
+2. **Two type environments, no third.** White type on the green field, Ink type on a Cream card. Every color decision follows from which surface you are on. An element that tries to span both will fail on one of them.
+
+3. **Keep the card shadow.** This is the one system in the library that legitimately needs one: cream on mid-value green has weak edge contrast. `0 2px 8px rgba(0,0,0,0.1)` and no larger — a bigger shadow turns a page into a floating modal.
+
+4. **Buttons invert on the field.** Forest Deep on green is nearly invisible. A button placed directly on the gradient is cream with Forest Deep type; the green button belongs on cream.
+
+5. **The serif appears only on the field, only for the masthead.** It never sets card titles or body. Section headings are sans at 700. Spending the serif on card content turns a manifesto into an essay.
+
+6. **Badges are sequential numerals.** 40px circles, Forest Deep, white numeral. Never an icon, never a letter, never a category marker. They exist to say *this is principle three of seven*.
+
+7. **Cards stack, never grid.** A numbered sequence in a three-across grid loses its reading order. Full-measure and stacked at every breakpoint.
+
+8. **Card gap is 16px — tighter than it looks like it should be.** The tight spacing is what makes a run of principles read as one list. Opening it to 24px or 32px turns a manifesto into a set of unrelated cards.
+
+9. **Focus rings invert with the surface.** Cream on the field, Forest Deep on a card. A single ring color is invisible on one of the two surfaces.
+
+10. **The badge stays beside the text on mobile.** Stacking a 40px circle above a paragraph breaks the row rhythm the list depends on. Keep the flex row and let the text column narrow instead.
 
 [View Full System Definition](systems/dark-green-manifesto-001/system.md)
 
@@ -2052,17 +2062,35 @@ When implementing this design system:
 
 ## Sunflower Platform System (ID: `sunflower-platform-001`)
 
-**Description:** A bold, energetic design system built around vibrant yellow backgrounds with high-contrast black typography and playful interactive elements.
+**Description:** A high-energy interface built on warm cream, where every surface is outlined in 2–3px of pure black and a single saturated yellow picks out the cards that carry the most weight. A classical serif hand
 
-**Tags:** `light`, `bright`, `bold`, `minimal`, `yellow`, `high-contrast`
+**Tags:** `light`, `bold`, `playful`, `high-contrast`, `cards`, `serif`
 
-**Colors:** `#FFD700`, `#000000`, `#2C2C2C`, `#FFFFFF`, `#F7CA00`
+**Colors:** `#F5F5DC`, `#FFD700`, `#000000`, `#FFFFFF`, `#2C2C2C`
 
 **Design Tone:**
-Bold, playful, and confident with a retro-modern aesthetic. The design embraces high contrast and vibrant colors while maintaining excellent readability. The paper fold effects and classical typography give it a tactile, almost analog feeling despite being digital.
+Bold, playful, and confident, with a retro-modern printed quality. The heavy black outlines and the classical serif give it a tactile, almost analog feeling despite the saturated palette, and the cream ground keeps the yellow from becoming glaring the way it would against white. It reads as a poster that happens to be interactive.
 
 **Usage Notes:**
-Use this system for applications requiring high energy and visibility. Perfect for creative tools, educational platforms, or consumer-facing products. Maintain the high contrast ratios for accessibility. The yellow background should dominate with black providing all contrast and definition. Keep interactions simple and direct with clear visual feedback.
+1. **The page ground is cream, not yellow.** `#F5F5DC` is the surface everything sits on. Yellow is a card fill used for emphasis. Making the page yellow removes the contrast that makes the yellow cards mean anything, and it is exactly the error the original spec described.
+
+2. **Every surface and control carries a black border.** 3px on cards, 2px on buttons, inputs, tags, and swatches. A borderless element does not read as part of this system, and removing the outline on hover or focus is the fastest way to break it.
+
+3. **Yellow is a fill, never type and never a border.** Do not set a heading in `#FFD700`, do not use it for a border, and do not tint the ground with it. It has exactly one job.
+
+4. **There is no solid black button.** Black is the outline and the type. A filled-black control would out-weigh every card on the page, which is why the primary button is an outlined pill that only *gains* yellow on hover.
+
+5. **Serif for meaning, sans for mechanics.** Headings, body, and numerals are serif; buttons, tags, inputs, labels, and captions are sans. Setting a button in the serif immediately makes it look like a caption rather than a control.
+
+6. **Keep display type fluid.** `clamp()` on the display, statistic, and heading sizes is why a 96px numeral survives a 393px viewport. Replacing it with fixed sizes plus breakpoints reintroduces horizontal overflow on small screens.
+
+7. **The 3px/2px split is deliberate.** Surfaces are 3px, controls are 2px. Flattening both to the same weight loses the only cue distinguishing a card from a button, since neither has a shadow.
+
+8. **White type is never used.** No surface in this palette is dark enough to carry it. All text is `#000000`, with `#2C2C2C` as the single softer variant for captions and subtitles.
+
+9. **Let the ground show through.** Nothing runs full-bleed and cards never sit flush against each other. The visible cream gap is what makes each outline read as the edge of an object instead of a divider between regions.
+
+10. **Alternate white and Sunflower cards within a section.** A run of three yellow cards flattens into one yellow block and the emphasis disappears. Roughly one Sunflower card per section is the working ratio.
 
 [View Full System Definition](systems/sunflower-platform-001/system.md)
 
@@ -2070,22 +2098,35 @@ Use this system for applications requiring high energy and visibility. Perfect f
 
 ## Coral Financial System (ID: `coral-financial-001`)
 
-**Description:** A clean, minimal financial interface system featuring warm coral accents, generous white space, and high readability optimized for trust and accessibility.
+**Description:** A cool, near-monochrome financial interface built on a faintly blue-grey ground, where black carries every primary action and a single coral red is spent only on the moment that needs attention. Round
 
-**Tags:** `light`, `minimal`, `fintech`, `coral-accent`, `generous-spacing`
+**Tags:** `light`, `minimal`, `professional`, `fintech`, `cards`, `high-contrast`
 
-**Colors:** `#E53E3E`, `#000000`, `#718096`, `#F7FAFC`, `#FFFFFF`
+**Colors:** `#F7FAFC`, `#FFFFFF`, `#000000`, `#E53E3E`, `#718096`
 
 **Design Tone:**
-Clean, trustworthy, and approachable. The system emphasizes clarity and ease of use with generous spacing, high contrast text, and minimal visual noise. The coral accent adds warmth while maintaining professional credibility essential for financial applications.
+Quiet, precise, and slightly cool. Black doing the work a brand color usually does keeps the interface from competing with its own data, and the monospaced figures give it the exactness a financial product needs without any visual flourish. The single coral is the only raised voice in the room, which is why it lands.
 
 **Usage Notes:**
-- Prioritize readability with high contrast text
-- Use generous spacing to reduce cognitive load
-- Apply coral accent sparingly for maximum impact
-- Maintain consistent 8px spacing grid
-- Ensure form fields are touch-friendly (44px+ tap targets)
-- Keep layouts simple and uncluttered
+1. **Every figure is monospaced.** Amounts, balances, account numbers, transaction IDs, dates in numeric form. Prose is never monospaced. This is the system's core rule — a proportional column of currency is the failure mode it exists to prevent.
+
+2. **Black is the action color; coral is the exception.** The default button is black. Coral appears at most once per screen, for the irreversible or urgent action. Making coral the general button color removes the only signal the system has.
+
+3. **Three text tones, three jobs.** Ink `#000000` for numbers and button labels, Slate `#2D3748` for headings, Muted `#718096` for everything explanatory. Collapsing these into one color removes the scan hierarchy entirely.
+
+4. **Inputs are the ground color, not white.** `#F7FAFC` fill makes a field read as a recess. On focus the fill lifts to `#FFFFFF` — keep that transition; it is the clearest interaction feedback in the system.
+
+5. **No shadows and one radius.** 8px everywhere, hairline borders, zero elevation. Varying radius by component or adding a shadow to figure cards makes the page look like a consumer app rather than infrastructure.
+
+6. **Numeric columns right-align.** Always, in tables and in any list of amounts. Left-aligned currency defeats the point of the monospaced face.
+
+7. **Coral is never a heading, a link, or a tag.** It is a fill for one button, or a text color for a negative figure and a validation message. Nothing else.
+
+8. **No zebra striping in tables.** Rows separate with a 1px bottom rule. Alternating fills fight the card fill and make the monospaced column harder to track, not easier.
+
+9. **Focus rings are black, not coral.** Focus must never look like an error or an alert, and coral is already carrying that meaning.
+
+10. **Positive green is text only.** `#2F855A` colors a rising figure or a credit. It is never a fill, a button, or a badge background — the system has exactly one chromatic fill and it is coral.
 
 [View Full System Definition](systems/coral-financial-001/system.md)
 
@@ -2093,22 +2134,35 @@ Clean, trustworthy, and approachable. The system emphasizes clarity and ease of 
 
 ## Carbon Domain System (ID: `dark-minimal-domain-001`)
 
-**Description:** A sophisticated dark interface design system optimized for domain marketplace and business directory platforms, featuring high contrast elements and strategic color coding for different states and act
+**Description:** A compact, list-first marketplace interface built on a three-step carbon ladder, where every row is a hairline-separated line item and three signal colors do three unambiguous jobs: red acts, green co
 
-**Tags:** `dark`, `minimal`, `professional`, `marketplace`
+**Tags:** `dark`, `minimal`, `professional`, `marketplace`, `data-heavy`, `compact`
 
-**Colors:** `#1a1a1a`, `#ff4444`, `#00cc66`, `#4488ff`, `#ffffff`
+**Colors:** `#1a1a1a`, `#2a2a2a`, `#ff4444`, `#00cc66`, `#4488ff`
 
 **Design Tone:**
-Professional and utilitarian with a focus on data density and quick scanning. The dark theme reduces eye strain during extended browsing sessions while the strategic use of color coding helps users quickly identify domain availability and pricing tiers. The interface prioritizes function over decoration with clean typography and generous whitespace.
+Utilitarian and quietly confident. It looks like a tool built by someone who uses it daily — dense, unfussy, and completely uninterested in impressing you. The three signal colors doing three fixed jobs give it an internal logic that becomes invisible once learned, which is the goal for an interface someone opens fifty times a day.
 
 **Usage Notes:**
-- Use consistent color coding: green for available, red for unavailable, blue for premium
-- Maintain high contrast ratios for accessibility
-- Keep button labels concise and action-oriented
-- Use the 8px spacing scale consistently
-- Ensure status indicators are immediately recognizable
-- Prioritize readability with adequate text sizing
+1. **Red means act, not error.** `#ff4444` is the primary button fill. Errors are communicated by a red border plus a message, never by a red fill. Treating red as a danger color removes the system's only call-to-action color.
+
+2. **Three signals, three fixed jobs.** Red acts, green confirms availability, blue prices. None of them ever crosses into another role, and no fourth signal color is added. A green button or a blue badge breaks the logic immediately.
+
+3. **Rows are flush and hairline-separated.** 16px padding, 1px `#333333` bottom border, no gap, no fill at rest, no striping. Adding a gap between rows turns a scannable list into a stack of cards and roughly halves the number of rows on screen.
+
+4. **The small type scale is deliberate.** 14–15px for rows and body. This is a density system; bumping it to 16px to feel more comfortable defeats its only real advantage.
+
+5. **Status dots are 6px.** At that size a dot is a glyph, not a badge, which is what lets it appear on every row without the list becoming a light show.
+
+6. **Borders carry the ladder.** With only `#1a1a1a` and `#2a2a2a` as surfaces, the `#333333` hairline is what makes a card a card. Dropping borders and relying on fill alone flattens the interface at this contrast range.
+
+7. **No bold inside a row.** Everything in a row is 14px/500 and the eye separates name from price by color. A bolded name in a list of two hundred defeats the scan.
+
+8. **Focus rings are blue.** Red is the action color and would make a focused field look like a button. Blue is already the neutral informational hue here.
+
+9. **Names truncate, never wrap.** A two-line row destroys the vertical rhythm the whole list depends on. Use an ellipsis and a title attribute.
+
+10. **Do not shrink for mobile.** The system is already compact. Padding and type stay fixed across breakpoints; the only change is the name column narrowing. Shrinking further breaks the 44px minimum touch target on row actions.
 
 [View Full System Definition](systems/dark-minimal-domain-001/system.md)
 
@@ -2578,17 +2632,35 @@ This is a bold, entertainment-focused dark interface that prioritizes content vi
 
 ## Carbon Flow System (ID: `dark-zen-typing-001`)
 
-**Description:** A minimalist dark interface design focused on eliminating distractions while highlighting key information through strategic color accents.
+**Description:** A deliberately mid-grey focus interface where the ground is neither black nor white, every surface is a translucent white overlay rather than a new color, and one amber numeral is the only chromatic e
 
-**Tags:** `dark`, `minimal`, `zen`, `productivity`
+**Tags:** `dark`, `minimal`, `zen`, `productivity`, `focus`, `monochrome`
 
-**Colors:** `#3A3A3A`, `#FFFFFF`, `#F5A623`, `#4CD964`, `#4A4A4A`
+**Colors:** `#3A3A3A`, `#4A4A4A`, `#FFFFFF`, `#F5A623`, `#A8A8A8`
 
 **Design Tone:**
-Clean, focused, and distraction-free aesthetic that emphasizes content over interface chrome. The design creates a zen-like environment for concentration while using vibrant accent colors to celebrate achievements and progress.
+Quiet, spacious, and unhurried. The mid-grey ground is doing something a black interface cannot: it recedes without feeling like a void, so a single amber number and a row of soft white circles can hold the entire screen. It is designed to be looked *through* rather than at.
 
 **Usage Notes:**
-This system works best for productivity, meditation, or focus-oriented applications. Use the dark background as the foundation, apply generous whitespace liberally, and reserve orange/green accents exclusively for highlighting achievements, progress, or positive states. Maintain the minimalist approach by avoiding unnecessary visual elements.
+1. **The ground is mid-grey, not black.** `#3A3A3A` is chosen so the screen recedes in a dim room without the harshness of pure black or the glare of white. Darkening it to `#1a1a1a` makes every white overlay in the system too contrasty, and the whole surface vocabulary stops working.
+
+2. **Surfaces are white alpha, not new greys.** 10% resting, 20% controls, 30% pressed. Replacing these with opaque hex values means the surfaces stop tracking the ground if it is ever adjusted, and the layered translucency that gives the interface its softness disappears.
+
+3. **Amber marks the metric and nothing else.** One amber element per screen: the live number. Not a button, not a heading, not a border. The single exception is the current step in a progress row, because that row *is* the metric.
+
+4. **The display metric is at least 3× everything else.** That ratio is the whole hierarchy. Shrinking it to fit more on screen turns a focus surface into a dashboard.
+
+5. **Icon buttons are 64px circles.** Not 40px, not squared off. The size is an affordance for a user who is not looking directly at the controls.
+
+6. **The primary button is white with dark type.** On a mid-grey ground, inverting to white is the strongest signal available without spending the accent. There is no amber button in this system.
+
+7. **Only two font weights.** 400 and 500. On a low-contrast ground weight differences read poorly; size carries hierarchy instead. Introducing a 700 makes headings look smudged rather than strong.
+
+8. **No shadows.** On mid-grey they are invisible in one direction and muddy in the other. Depth is white alpha, full stop.
+
+9. **Never two large figures.** If two metrics matter equally, neither is the display metric and both drop to section-title size. The composition depends on there being exactly one thing to look at.
+
+10. **Inputs have no border.** The alpha fill is the entire affordance, and it lifts from 10% to 20% on focus. Adding a hard border reintroduces the visual noise the system exists to remove.
 
 [View Full System Definition](systems/dark-zen-typing-001/system.md)
 
@@ -2691,17 +2763,33 @@ This system embodies warmth, authenticity, and professional calm. It feels like 
 
 ## Obsidian Publisher System (ID: `dark-publisher-001`)
 
-**Description:** A dark, high-contrast design system for publishing platforms with bold red accent colors and clean typography hierarchy.
+**Description:** A reading-first publishing interface built on pure black, where blocks of near-white paper invert out of the page to carry forms, pull quotes, and pagination, and a single arterial red marks every int
 
-**Tags:** `dark`, `minimal`, `publishing`, `high-contrast`
+**Tags:** `dark`, `minimal`, `publishing`, `high-contrast`, `editorial`, `serif`
 
-**Colors:** `#000000`, `#FFFFFF`, `#E53E3E`, `#F7F7F7`
+**Colors:** `#000000`, `#FFFFFF`, `#E53E3E`, `#F7F7F7`, `#A3A3A3`
 
 **Design Tone:**
-Bold, authoritative, and reader-focused. The system emphasizes content readability with high contrast and clean typography. The dark theme with red accents creates a sophisticated publishing atmosphere that feels professional and literary.
+Bold, authoritative, and reader-first. The pure-black ground and the large unbolded serif give it the gravity of a printed masthead, while the paper panels breaking out of the page make forms and quotations feel physically set rather than styled. The single red is doing the work of an entire accent palette, which is why it never gets diluted.
 
 **Usage Notes:**
-This system works best for content-heavy applications like publishing platforms, literary sites, or editorial interfaces. The high contrast ensures excellent readability, while the red accent provides clear visual hierarchy for interactive elements. Use generous spacing and maintain the serif/sans-serif contrast for optimal content presentation.
+1. **Elevation is inversion, never shadow.** A panel is above the page because it is `#F7F7F7` on `#000000`. Adding a box-shadow, a glow, or a lighter grey "card" tone collapses the one structural idea the system has.
+
+2. **Never build a full-bleed band with `margin: 0 -100vw` and `padding: 0 100vw`.** It doubles the document width and forces a horizontal scrollbar at every viewport, and `100vw` includes the scrollbar so the maths never resolves. Use a block-level element carrying its own background with a nested gutter element inside it.
+
+3. **The serif is never bold.** At 48px on pure black, weight 400 already reads heavier than a bold sans. Bolding closes the counters and turns a masthead into a headline.
+
+4. **Borders on black are `#262626`, not `#F7F7F7`.** The palette lists a light neutral, but using it for a hairline puts a bright line across a dark page. `#F7F7F7` is a surface value in this system, never a stroke value.
+
+5. **One red, roughly one red element per screenful.** The primary button, or the active pagination cell, or a kicker. Red never appears in body copy, headings, borders, or backgrounds, and the system never adds a second accent for secondary actions.
+
+6. **Type inside a Paper panel flips completely.** Black body, `#5C5C5C` secondary. Leaving white or Muted type on a Paper panel is the most common way this system breaks, and it is exactly the failure that shipped in the original preview.
+
+7. **Radii stay at 0 to 2px.** Buttons, inputs, panels, and pagination cells are all effectively rectangular. An 8px radius anywhere makes the whole page read as a generic dark dashboard.
+
+8. **Keep the reading measure tight.** 68 characters maximum for body copy. White-on-black loses tracking accuracy faster than black-on-white, so the measure that feels comfortable in a light system is too wide here.
+
+9. **The kicker is the only red type and the only all-caps besides buttons.** Do not letterspace headings, do not set bylines in caps, and do not color a heading red to create emphasis — emphasis is size and the serif/sans split.
 
 [View Full System Definition](systems/dark-publisher-001/system.md)
 
@@ -2947,21 +3035,35 @@ This system exudes the quiet confidence of a premium editorial publication — t
 
 ## Aurora Payment System (ID: `aurora-payment-001`)
 
-**Description:** Clean, modern payment interface design with cyan accent colors and sophisticated dark overlay aesthetics. Features glass-morphism elements and clear payment interaction patterns.
+**Description:** A dark, atmospheric payment interface built on a diagonal charcoal-to-slate gradient, where translucent blurred panels float over the ground and a single electric cyan carries the amount and every pri
 
-**Tags:** `light`, `dark-overlay`, `cyan-accent`, `payment-ui`, `glass`
+**Tags:** `dark`, `glass`, `gradient`, `minimal`, `modern`, `payment-ui`
 
-**Colors:** `#00E5FF`, `#FFFFFF`, `#1A1A1A`, `#4A90E2`, `#66D9EF`
+**Colors:** `#1a1a1a`, `#2d3748`, `#00E5FF`, `#4A90E2`, `#ffffff`
 
 **Design Tone:**
-Modern, trustworthy, and technologically sophisticated. The interface emphasizes clarity and confidence in financial transactions through high contrast, generous spacing, and premium glass-morphism effects. The cyan accent color adds a fresh, digital-forward personality while maintaining professional credibility.
+Calm, premium, and slightly futuristic. The gradient and the blurred panes give it the feeling of a heads-up display rather than a form, and the light-weight cyan figure makes an amount of money feel like information rather than a demand. It is designed for the two seconds before someone confirms a transaction.
 
 **Usage Notes:**
-- Always maintain high contrast ratios for accessibility
-- Use glass-morphism effects sparingly for premium feel
-- Cyan accents should be used for primary actions and brand elements
-- Ensure touch targets are minimum 44px for mobile usability
-- Layer transparency effects carefully to maintain text readability
+1. **The gradient is mandatory, not decorative.** `linear-gradient(135deg, #1a1a1a, #2d3748)` is what glass cards are translucent against. On a flat fill the blur has nothing to blur and every card collapses into a slightly-different-grey rectangle.
+
+2. **Glass is three properties together.** `rgba(26,26,26,0.85)` + `backdrop-filter: blur(10px)` + a 1px 10%-white border. Dropping the border removes the edge, dropping the blur removes the material, dropping the alpha removes the point.
+
+3. **The amount is weight 300.** Lighter than body text. A 72px figure at 600 reads as a bill; at 300 it reads as a balance. This is the single most characteristic decision in the system.
+
+4. **Cyan is the amount and the primary action — nothing else large.** A cyan heading beside a cyan figure creates two focal points. Cyan may appear small (tag borders, focus rings) but only once at display size.
+
+5. **The primary button carries dark type.** `#1a1a1a` on `#00E5FF`. White on cyan fails; inverting is what makes the button the brightest thing on screen.
+
+6. **No shadows.** Depth is translucency and blur. A drop shadow under a glass card turns a pane into a sticker.
+
+7. **Secondary actions are tinted glass, not solid.** `rgba(74,144,226,0.2)` with a solid `#4A90E2` border. A solid secondary button breaks the material logic that every other surface follows.
+
+8. **Body copy is 70% white, not pure white.** Full white is reserved for headings and the few lines that matter. Setting all copy to `#ffffff` on this ground is both harsh and flattening.
+
+9. **Nothing is full-bleed.** The gradient must show around every card. A card running edge to edge turns the atmosphere into a background image.
+
+10. **Always ship the no-blur fallback.** `backdrop-filter` is the system's whole identity and also its most fragile dependency — a solid `#1f2430` fallback keeps the layout intact where it is unsupported.
 
 [View Full System Definition](systems/aurora-payment-001/system.md)
 
@@ -2969,17 +3071,35 @@ Modern, trustworthy, and technologically sophisticated. The interface emphasizes
 
 ## Void Platform Design System (ID: `dark-minimal-chat-004-001`)
 
-**Description:** A sophisticated dark interface system emphasizing readability and minimal distraction through careful use of contrast and spacing.
+**Description:** A pure-black conversational interface built as a four-step grey ladder, where every surface is a lift in value rather than a change in hue and the only color in the entire system is a single signal gr
 
-**Tags:** `dark`, `minimal`, `professional`, `chat-interface`
+**Tags:** `dark`, `minimal`, `technical`, `chat`, `high-contrast`, `monospace`
 
-**Colors:** `#000000`, `#1a1a1a`, `#ffffff`, `#666666`, `#2a2a2a`
+**Colors:** `#000000`, `#1a1a1a`, `#2a2a2a`, `#00ff88`, `#ffffff`
 
 **Design Tone:**
-Professional and focused with minimal visual noise. The system prioritizes content readability in dark environments while maintaining a clean, unobtrusive interface aesthetic. Spacing is generous to reduce cognitive load during extended use.
+Quiet, technical, and content-first. The tight grey ladder and the single green dot give it the feel of a well-configured terminal rather than a consumer chat product, and the monospaced message body signals that the text is the artifact — something to be read, copied, and trusted rather than skimmed.
 
 **Usage Notes:**
-This system works best for communication interfaces, dashboards, or any application requiring extended reading in low-light conditions. The high contrast ratios ensure accessibility while the minimal approach reduces eye strain. Use sparingly colored accents only for critical status indicators.
+1. **Never tint message bubbles by speaker.** Both sides use `#1a1a1a`. The sender is identified by a name line and by alignment. Coloring the user's bubble is the single fastest way to turn this into a generic consumer chat app.
+
+2. **Step 2 means interactive.** `#2a2a2a` is reserved for inputs and buttons. If a non-interactive surface takes Step 2, the interface loses the only cue telling the user what they can operate.
+
+3. **Green is one 8px dot.** Signal `#00ff88` is a status indicator and nothing else — never text, never a fill, never a border, never a button. A green button here would be the brightest thing on a pure-black page by an enormous margin.
+
+4. **Mono for content, sans for chrome.** If the user could copy it, it is monospaced. Message bodies, code, timestamps, IDs. Headings, buttons, labels, and tags are sans.
+
+5. **The primary button is a ladder step, not a color.** `#333333`, one rung above the default button. Introducing a saturated primary pulls the eye off the text the interface exists to display.
+
+6. **Keep message line-height at 1.65.** Long monospaced passages on pure black are harder on the eye than proportional text on paper. Tightening to 1.4 to fit more on screen makes the interface materially worse to read.
+
+7. **No bold body text.** Bolded monospace on black smears at 15px. Emphasis inside a message is the mono face and the line break, not weight.
+
+8. **Focus rings are white.** Signal green already means status; a green focus ring makes a focused field look connected rather than active.
+
+9. **Double the gap between speaker turns.** 12px within a run, 24px between runs. That 2:1 ratio is what groups messages without needing a container or a divider.
+
+10. **No shadows — the ladder is the elevation.** Five steps from `#000000` to `#4a4a4a` do all the work. A shadow on pure black is invisible anyway, so reaching for one means the ladder is being used wrong.
 
 [View Full System Definition](systems/dark-minimal-chat-004-001/system.md)
 
@@ -2987,17 +3107,35 @@ This system works best for communication interfaces, dashboards, or any applicat
 
 ## Sage Financial System (ID: `light-tax-service-001`)
 
-**Description:** A clean, approachable design system for financial services that balances professionalism with friendly accessibility through soft illustrations and confident green branding.
+**Description:** A calm, warm-neutral service interface built on a paper-toned ground, where white cards outlined in a single hairline carry every piece of content and one deep forest green marks the path forward. Gen
 
-**Tags:** `light`, `minimal`, `professional`, `friendly`
+**Tags:** `light`, `professional`, `warm`, `minimal`, `cards`, `trustworthy`
 
-**Colors:** `#2D5B3F`, `#F8F6F3`, `#4A6B56`, `#1A1A1A`, `#FFFFFF`
+**Colors:** `#F8F6F3`, `#FFFFFF`, `#2D5B3F`, `#1A1A1A`, `#666666`
 
 **Design Tone:**
-Professional yet approachable financial service design that removes intimidation through friendly illustrations and clear information hierarchy. The warm off-white background and confident green branding create trust while maintaining accessibility.
+Calm, warm, and reassuring without being soft-headed. The paper-toned ground and the fully rounded buttons take the institutional edge off what is usually a stressful category, while the single deep green and the disciplined hairline keep it credible rather than cute. It reads like a well-designed letter from someone competent.
 
 **Usage Notes:**
-Use the warm off-white background (#F8F6F3) as the primary surface with white content areas. Apply the green primary color sparingly for key actions. Maintain generous whitespace and use the system font stack for optimal cross-platform rendering. Keep illustrations simple and friendly to balance the professional financial context.
+1. **The ground is warm, not white.** `#F8F6F3` against `#FFFFFF` cards is what makes a shadowless system legible. Setting the page to white collapses the card edges and forces you to reach for elevation the system does not have.
+
+2. **Green means action, never emphasis.** Forest is for primary buttons, active states, and focus rings. A green heading makes the reader hunt for a control. Emphasis is weight and Ink, not color.
+
+3. **Body copy runs in the secondary tone.** 16px/400 `#666666` for prose, full-strength `#1A1A1A` reserved for headings, card titles, and numbers. Setting all body text to full Ink flattens the page and removes the cue telling the eye where to land.
+
+4. **No shadows, ever.** Cards separate by 1px hairline plus the ground's tonal step. A box-shadow on a 16px-radius white card instantly turns this into a generic SaaS marketing page.
+
+5. **Keep the radius split.** 16px on cards, 8px on inputs, full pill on buttons. Matching input radius to card radius makes fields read as nested cards; matching card radius to the pill makes the whole page look like a toy.
+
+6. **Illustration colors never enter the UI.** Leaf and Sky exist inside drawings and process icons. They are never a button, a border, a tag fill, a chart series, or a text color.
+
+7. **The primary button is wide.** 16px 48px padding is not arbitrary padding — the horizontal generosity is what gives the action its calm proportion. Tightening it to 16px 24px makes the button read as urgent.
+
+8. **Hover goes lighter, not darker.** Forest Hover `#4A6B56` is above the resting fill. Darkening on hover reads as pressure; lightening reads as invitation, which is the register this system wants.
+
+9. **No red buttons.** Destructive actions are a secondary button plus confirmation. Red is reserved for validation messages, because on this warm ground a red fill reads as an emergency.
+
+10. **Forms live inside cards.** An input floating directly on `#F8F6F3` loses its edge, since the field fill and the card fill are the same white. Always nest the form in a card.
 
 [View Full System Definition](systems/light-tax-service-001/system.md)
 
@@ -3064,17 +3202,35 @@ When implementing this system:
 
 ## Parchment Editorial System (ID: `light-minimal-blog-001`)
 
-**Description:** A clean, minimal editorial design system emphasizing readability and subtle warmth with careful typography hierarchy and muted accent colors.
+**Description:** A white-ground reading system built on a three-step grey text ladder, where a single violet marks every link and action and nothing else in the interface carries color. Restrained, shadowless, and bui
 
-**Tags:** `light`, `minimal`, `editorial`, `warm`
+**Tags:** `light`, `minimal`, `editorial`, `cards`, `modern`, `long-form`
 
-**Colors:** `#FFFFFF`, `#F5F5F5`, `#E8D5C4`, `#8B5CF6`, `#333333`
+**Colors:** `#FFFFFF`, `#F5F5F5`, `#8B5CF6`, `#333333`, `#666666`
 
 **Design Tone:**
-Clean, minimal, and editorial-focused with an emphasis on readability and content hierarchy. The warm neutral palette creates an approachable, comfortable reading experience while maintaining professional presentation.
+Quiet and unfussy, with just enough personality to not read as a template. The violet is the single note of character in an otherwise neutral page, and holding it to links and actions is what keeps a long article feeling like writing rather than an interface. It gets out of the way.
 
 **Usage Notes:**
-This system prioritizes content readability above all else. Use generous whitespace, maintain consistent vertical rhythm, and ensure high contrast ratios for text. The purple accent should be used sparingly for key interactive elements and highlights.
+1. **Violet means "clickable" and nothing else.** Links, buttons, active navigation, focus rings. A violet heading or a violet accent bar invites a click that is not there and destroys the one signal the system has.
+
+2. **Body text is `#333333`, not black.** Pure black on pure white is harsh over a long read. The soft near-black is a reading-comfort decision, not an accident, and it anchors the three-step grey ladder.
+
+3. **Keep body at 17px / 1.75 with a 68-character measure.** All three numbers are set for continuous reading rather than scanning. Tightening any of them to fit more above the fold makes the system worse at its only job.
+
+4. **Body links are underlined at rest.** Color alone is not enough signal inside a paragraph. Navigation and metadata links may drop the underline; prose links may not.
+
+5. **The heading gap is asymmetric.** 12px above the text a heading introduces, 48px below the text it follows. Equalizing them detaches every heading from its section.
+
+6. **No shadows and only two fills.** White and `#F5F5F5`, separated by a 1px hairline. A shadow on a `#F5F5F5` card is nearly invisible on white anyway, so reaching for one means the tonal step is being used wrong.
+
+7. **There are only two buttons.** Violet fill and violet ghost. Adding a neutral grey button gives a reading interface three competing actions, which is two too many.
+
+8. **The warm sand tone is a placeholder only.** `#E8D5C4` stands in for imagery. It is never a fill, a border, a tag, or type — it exists so an image-less card is not an empty grey box.
+
+9. **Dividers run to the measure, not the page.** A full-width rule under a 680px column reads as a section break and cuts the article into pieces.
+
+10. **The header does not stick.** A fixed bar permanently occupies the top of a reading view. If persistent navigation is genuinely required, use a compact bar that hides on scroll down and returns on scroll up.
 
 [View Full System Definition](systems/light-minimal-blog-001/system.md)
 
@@ -3477,6 +3633,8 @@ Warm, literate, and unhurried — a page that reads like considered prose rather
 
 10. **Never set vertical rhythm with a `padding: Xpx 0` shorthand on an element that also carries the gutter class.** Use `padding-top` and `padding-bottom`. The shorthand wins on source order, zeroes the horizontal gutter, and flushes content to the screen edge on mobile — while the header, which carries the gutter class alone, still looks correct, so the page reads as inconsistently indented rather than broken.
 
+11. **A `max-width` never centers anything on its own.** The overlay quote card sits outside the gutter element and carries fixed side margins for mobile; capping its width at the tablet breakpoint without also setting `margin-left: auto` and `margin-right: auto` leaves those margins in force and strands the card against the left edge of every wide viewport. This is note 8's counterpart: the rule above says do not center what should be left-aligned, and this one says do center the two things that are supposed to be — the raised panel's contents and this card's box.
+
 [View Full System Definition](systems/light-warm-serif-italic-045-001/system.md)
 
 ---
@@ -3514,6 +3672,35 @@ Warm and slightly handmade without being twee. The butter ground and the drawn i
 10. **Anchor the illustration to the card, not the section.** It must overlap and break the card's corner. Positioning it against the section instead leaves it floating in empty ground beside the card, which loses the drawn, stuck-on quality entirely.
 
 [View Full System Definition](systems/light-warm-outline-046-001/system.md)
+
+---
+
+## Basalt Console (ID: `dark-console-lime-047-001`)
+
+**Description:** A near-black console system for developer platforms and account dashboards, built on hairline borders, four barely-separated surface tints, and a single electric lime accent reserved for the one next 
+
+**Tags:** `dark`, `developer`, `dashboard`, `saas`, `minimal`, `cards`, `onboarding`, `high-contrast`
+
+**Colors:** `#04080A`, `#0A0D0F`, `#D4FE51`, `#FCFCFE`, `#171B1D`
+
+**Design Tone:**
+Instrument-panel calm — a near-black surface where structure is drawn in hairlines rather than shadows, and a single electric lime tells you the one thing to do next. It reads as a tool for people who already know what they are doing: dense enough to be efficient, quiet enough to sit open all day, and confident enough that the accent appears once per screen and means it.
+
+**Usage Notes:**
+1. One lime element per view. It marks the single next action — the primary button, the active nav row, the selected option — and a second one destroys the hierarchy the whole palette exists to create.
+2. Never add a shadow. Depth is a tint step: `#04080A` → `#0A0D0F` → `#131617`. Adding elevation makes this a generic dark theme, and the flatness is the point.
+3. Lime fills always carry `#04080A` ink. White on `#D4FE51` fails contrast and looks unfinished; the ground color reused as ink is what makes the accent feel native.
+4. Keep the ground at `#04080A`. Lightening it toward `#111111` or `#1A1A1A` collapses the four surface tints into indistinguishable grays and the entire structure disappears.
+5. Card descriptions run at 15px with 1.75 line-height. Tightening that to 1.5 to fit more copy is the fastest way to make this read like every other SaaS dashboard.
+6. Blue is informational and never actionable. Announcement bars, beta badges, and callouts use it; nothing the user clicks to proceed does.
+7. Hover is a two-property change — fill to `#131617`, border to `#252829` — applied together. Changing one alone reads as a rendering glitch rather than a state.
+8. Selection needs both signals. A selected option card raises its tint *and* lights its control. Either one alone gets missed at a glance.
+9. Empty states stay inside the card at full size with a muted glyph and a plain sentence naming the metric and window. No illustration, no "get started" button, no border treatment.
+10. Icons stay outline at 1.5px stroke and stay monochrome. Colored or filled icons are the wrong register for this system entirely.
+11. Everything is sentence case, including badges and buttons. All-caps labels read as a different, louder product.
+12. On mobile the rail unpins into a wrapping top bar rather than a drawer overlay, grids go single-column, and the primary button goes full-width. Nothing else about the system adapts.
+
+[View Full System Definition](systems/dark-console-lime-047-001/system.md)
 
 ---
 

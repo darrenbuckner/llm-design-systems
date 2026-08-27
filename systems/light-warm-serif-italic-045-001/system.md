@@ -72,6 +72,8 @@ A long-scroll marketing page built on a pale sage-cream ground, where every head
 
 **Gutter ownership:** one element owns the horizontal gutter and nothing else sets horizontal padding on it. Section rhythm is applied with `padding-top` and `padding-bottom` longhand, never a `padding: 56px 0` shorthand, because a shorthand on a class sharing that element wins on source order and silently zeroes the gutter — which flushes every heading, paragraph, and button to the viewport edge on mobile while leaving elements that carry only the gutter class correctly indented.
 
+**Centering a constrained element:** any element that sits outside the gutter element and takes a `max-width` must also take `margin-left: auto` and `margin-right: auto`. A `max-width` on its own does not center anything — if the element already carries fixed side margins from a mobile rule, those margins win and it stays pinned to the left edge at every width above the breakpoint.
+
 ## Component Styles
 
 ### Buttons
@@ -90,7 +92,9 @@ Fill `#FFFFFF`, 1px `#E1E2DC` border, 24px radius, 32px padding, no shadow. This
 
 ### Overlay Quote Card
 
-A `#FFFFFF` card with 20px radius and 24px padding, positioned to overlap the bottom edge of a full-bleed image by roughly 40%. Contains a serif quote at 22px, then a 44px circular avatar with the name at 17px/700 and role at 15px in Muted beside it. The image behind it is full-bleed with 0 radius; the card provides all the softness. Because the image is full-bleed and the card is not, the card carries its own 24px side margins rather than sitting inside the page gutter element.
+A `#FFFFFF` card with 20px radius and 24px padding, positioned to overlap the bottom edge of a full-bleed image by roughly 40%. Contains a serif quote at 22px, then a 44px circular avatar with the name at 17px/700 and role at 15px in Muted beside it. The image behind it is full-bleed with 0 radius; the card provides all the softness.
+
+Because the image is full-bleed and the card is not, the card sits outside the page gutter element and carries its own 24px side margins on mobile. Above the tablet breakpoint it is capped at 520px and **centered with `margin-left: auto` and `margin-right: auto`** — the cap alone leaves the mobile side margins in force and pins the card to the left edge of a wide viewport. The card centers on the viewport, not on the 1120px content measure, because the image it overlaps is full-bleed.
 
 ### Feature Rows
 
@@ -116,7 +120,7 @@ A bold sans lead-in term at 700 followed by an em-space and the description at 4
 
 Single-column, mobile-first, long-scroll. The page is a vertical sequence of full-measure prose blocks, hairline cards, and two full-bleed moments — one image and one Espresso section — that break the cream ground and give the scroll its rhythm. Content is capped at 1120px and centered on desktop, where feature rows may move to two columns and testimonial cards to a three-up grid, but the reading order and the vertical rhythm are unchanged. Nothing is ever three columns on tablet. The header is a simple wordmark-left, menu-right bar sitting transparently on the page ground with no border and no fill, and it does not become sticky.
 
-The gutter is 24px on mobile, 40px on tablet, 64px on desktop, and it is set in exactly one place. Full-bleed elements opt out by sitting outside the gutter element entirely rather than by cancelling its padding.
+The gutter is 24px on mobile, 40px on tablet, 64px on desktop, and it is set in exactly one place. Full-bleed elements opt out by sitting outside the gutter element entirely rather than by cancelling its padding. Anything that opts out and then constrains its own width has to re-center itself explicitly.
 
 ## Visual Effects
 
@@ -147,3 +151,5 @@ Warm, literate, and unhurried — a page that reads like considered prose rather
 9. **Icons stay line-drawn and naked.** 1.5px monochrome outline in Espresso, no fill, no color, no circular container or tinted chip behind them. Putting feature icons in colored circles is the single most common way this system gets ruined.
 
 10. **Never set vertical rhythm with a `padding: Xpx 0` shorthand on an element that also carries the gutter class.** Use `padding-top` and `padding-bottom`. The shorthand wins on source order, zeroes the horizontal gutter, and flushes content to the screen edge on mobile — while the header, which carries the gutter class alone, still looks correct, so the page reads as inconsistently indented rather than broken.
+
+11. **A `max-width` never centers anything on its own.** The overlay quote card sits outside the gutter element and carries fixed side margins for mobile; capping its width at the tablet breakpoint without also setting `margin-left: auto` and `margin-right: auto` leaves those margins in force and strands the card against the left edge of every wide viewport. This is note 8's counterpart: the rule above says do not center what should be left-aligned, and this one says do center the two things that are supposed to be — the raised panel's contents and this card's box.
