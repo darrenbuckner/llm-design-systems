@@ -3704,3 +3704,75 @@ Instrument-panel calm — a near-black surface where structure is drawn in hairl
 
 ---
 
+## Foolscap Dossier (ID: `light-warm-dossier-048-001`)
+
+**Description:** Foolscap Dossier is a bone-white, print-derived system for personal records — profiles, handbooks, changelogs, engagement histories — where a high-contrast serif carries every heading, a wide-tracked 
+
+**Tags:** `light`, `minimal`, `warm`, `serif`, `monospace`, `editorial`, `generous-spacing`, `high-contrast`, `portfolio`
+
+**Colors:** `#FAFAF7`, `#1A1A1A`, `#183333`, `#54504A`, `#D9D9D6`
+
+**Design Tone:**
+Quiet, exact, and confident enough to leave most of the page empty. It reads like a well-set printed record — a letterpress CV or the colophon of a small press — where the monospace annotations do the filing and the serif does the speaking. The warmth comes entirely from the bone ground and the grey-brown ink rather than from any decorative element, and the single pine accent is rationed hard enough that it still registers as a signal on the fifth screen.
+
+**Usage Notes:**
+1. **Never add a card.** The moment content goes inside a bordered or filled container, this system becomes an ordinary light SaaS page. Grouping is done with 56–200px of vertical space and hairline rules at section boundaries only.
+
+2. **Do not compress the section rhythm.** 128px mobile / 200px desktop between sections looks excessive in isolation and is load-bearing in context. Cutting it to a conventional 64px is the single most common way this system is destroyed, and it will still look tidy afterward — which is what makes it hard to notice.
+
+3. **Keep prose in the sans.** Serif is for headings, titles, and the one italic positioning line. Set a paragraph in Fraunces and the page reads as a literary magazine rather than a record.
+
+4. **Pin `opsz` below the pixel size on every serif level.** Left on auto, Fraunces goes maximum-contrast at display sizes and the whole page shifts from letterpress to fashion masthead. This is the single highest-leverage setting in the system and it is invisible until you compare two renders side by side.
+
+5. **Ration the pine.** Roughly one to three accent elements per screenful: inline links, the italic line, a call to action. Using it for a heading color, a background, or a badge collapses the contrast that makes links legible without a box.
+
+6. **Meta labels are annotation, not navigation.** `#89847B` at 3.6:1 is deliberately below the interactive threshold. Anything a user must click or read carefully goes in `#54504A` or darker. Do not "fix" the quiet label color by darkening all mono uniformly.
+
+7. **Every section heading ends in a period.** It is a system rule, not an editorial choice, and dropping it on one heading makes the set look inconsistent rather than restrained.
+
+8. **Give record rows `min-width: 0` on both grid children.** A long serif title in a `1fr` track will otherwise push the grid wider than the container and produce horizontal scroll at 393px with no element reporting as overflowing.
+
+9. **Use `clamp()` for all display sizes, and one element owns the horizontal gutter.** An 88px serif heading cannot break, so a fixed value overflows a 393px viewport before any media query fires. Separately, if a section class sets `padding: 120px 0` shorthand on the gutter element, it silently zeroes the gutter and content runs to the viewport edge on mobile while the header stays correctly indented — use `padding-top` / `padding-bottom` longhand on anything sharing that element.
+
+10. **No dark mode, no inverted band, no footer in reverse.** The system is defined partly by having exactly one surface. A dark footer or a reversed hero is not an extension of it; it is a different system wearing its fonts.
+
+[View Full System Definition](systems/light-warm-dossier-048-001/system.md)
+
+---
+
+## Charcoal Fieldbook (ID: `dark-report-fieldbook-049-001`)
+
+**Description:** Charcoal Fieldbook is a dark system for long-form research: industry reports, survey write-ups, ebooks, field studies — anything that has to sustain forty pages of argument and still make a chart legi
+
+**Tags:** `dark`, `minimal`, `editorial`, `publishing`, `data-visualization`, `high-contrast`, `generous-spacing`, `professional`, `research-report`
+
+**Colors:** `#232323`, `#F4F4F1`, `#FF814D`, `#7ED0FE`, `#3D3D3C`
+
+**Design Tone:**
+Serious and evidence-led, with one hand-drawn seam showing. It reads like a well-produced industry report that someone actually annotated in pencil — the grotesque and the hairline tables do the arguing, the pastel data palette keeps forty pages of charts from turning into a wall of brand orange, and the handwritten line at each chapter boundary admits that the authors are still working the question out. The warmth comes from the charcoal ground and the off-white ink rather than from any decorative element.
+
+**Usage Notes:**
+1. **Use the data palette in order and never re-order it.** Orange, sky, pink, butter, lilac, chalk. Assigning colours by hue preference chart-to-chart destroys the cross-chart consistency that makes a long report readable, and it is the fastest way to make this look like a template.
+
+2. **Value labels sit outside the bar, never inside it.** The palette is light and the ground is dark, so ink-on-fill fails and fill-coloured text on the ground is the only readable option. A 4% bar has no room for a label inside it anyway, which is exactly the case that breaks a chart built the other way.
+
+3. **Never let colour alone carry meaning in a severity triad.** Position encodes level and the word is always present. Three green dots with no label is not this component.
+
+4. **Keep the surface ramp to three values and never add a fourth.** `#232323` ground, `#262626` raised, `#2E2E2E` tile. The steps are deliberately near-invisible; a designer "fixing" the contrast between them by lightening the panel turns a quiet document into a dashboard.
+
+5. **The annotation face is a seam, not a voice.** Once per chapter opener plus the closing note card. Setting a heading, a chart label, or a button in it reads as whimsy and undoes the credibility the grotesque establishes.
+
+6. **Muted is `#9A9A98`, not `#818180`.** The lower value looks better and measures 4.03:1, which fails AA for the eyebrows, captions, and attribution lines that carry it. Do not darken it back toward the ground for aesthetics.
+
+7. **One 800 weight per page.** The chapter title. If a section heading also needs 800 to feel important, the page has two competing titles and the structure is wrong.
+
+8. **Charts and tables take the full 900px container while prose stays at 720px.** Do not indent a chart to match the paragraph above it. That width step is the only layout rhythm the system has, and matching them flattens the page.
+
+9. **Give table and grid children `min-width: 0`, and size chapter titles with `clamp()`.** A 46px 800-weight grotesque cannot break, so a fixed size overflows a 393px viewport before any media query fires; and a long unbroken cell in a `1fr` track pushes the table wider than its container with no element reporting as overflowing.
+
+10. **One element owns the horizontal gutter.** If a section class sets `padding: 64px 0` shorthand on that same element, it silently zeroes the gutter and content runs to the viewport edge on mobile while the header stays correctly indented. Use vertical longhand on anything sharing the gutter element.
+
+[View Full System Definition](systems/dark-report-fieldbook-049-001/system.md)
+
+---
+
