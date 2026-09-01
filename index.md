@@ -3776,3 +3776,30 @@ Serious and evidence-led, with one hand-drawn seam showing. It reads like a well
 
 ---
 
+## Lattice Dawn (ID: `light-clinical-mono-050-001`)
+
+**Description:** Lattice Dawn is a light, clinical-precision system for technical platforms that need to read as human. Monospace carries every label, button, and data tag; a proportional grotesque carries everything 
+
+**Tags:** `light`, `minimal`, `modern`, `monospace`, `gradient`, `rounded`, `forms`, `marketing`, `healthcare`, `clinical`
+
+**Colors:** `#FFFFFF`, `#17151B`, `#F6CDA6`, `#CBDDF4`, `#C9BEE8`
+
+**Design Tone:**
+Clinical precision made warm. The monospace chrome signals rigor, traceability, and system-thinking; the proportional grotesque and the single dawn gradient keep it from tipping into a cold terminal aesthetic. The result is airy, confident, and unhurried — a technical product that trusts whitespace and restraint to do the reassuring instead of stock imagery or drop shadows.
+
+**Usage Notes:**
+1. Never bold the headings. Keep display and section headings at weight ~450; size and whitespace carry the hierarchy. A bold hero heading turns this into a generic startup landing page and loses the whole editorial-technical register.
+2. Split the two typefaces strictly by role and never cross them: proportional sans for everything read (headings, body, input values), monospace for everything operated or labeled (eyebrows, buttons, toggles, chips, wordmark). Put body prose in the mono and it becomes a terminal theme; put a button label in the sans and it looks unfinished.
+3. In-sentence emphasis is a highlight mark, not bold/italic/color. Use at most two per sentence — they mark the two words the sentence turns on. Three or more and they stop reading as emphasis and become wallpaper.
+4. Pair the accent hues; don't stack them. Peach and periwinkle are a warm/cool set, one of each per sentence. Two peach marks or two blue marks in one phrase kills the contrast that makes the device legible.
+5. No shadows, ever. Reach for elevation and the flat clinical calm is gone. Separate content with the full-bleed gray band or a 1px hairline instead.
+6. The gradient appears exactly once, in the hero. It is the single warm gesture on an otherwise white page; repeating it per section makes it wallpaper and drains the highlight marks of their pop.
+7. Every section opens with a monospace uppercase tracked eyebrow label. Drop it and the page reads as two unrelated typefaces rather than one deliberate system — the eyebrow is what teaches the eye the split.
+8. Chips are the one monospace element set in mixed case, and they are never filled or uppercased. They are a queryable list of data sources, not buttons; uppercasing "Pathology (WSI)" or filling "Flow cytometry" makes them read as controls and breaks the data-tag metaphor.
+9. Controls are large and rounded with real padding — 44px+ targets, ~18px vertical padding, pill or 16px radius. Tighten them into compact dashboard controls and the calm marketing surface reads as an admin panel.
+10. Stay single-column and left-aligned; the only desktop adaptation is wider gutters and more room for chip rows and form fields. Do not add columns, do not center the hero text, and do not introduce a second background color beyond the one gray band.
+
+[View Full System Definition](systems/light-clinical-mono-050-001/system.md)
+
+---
+
