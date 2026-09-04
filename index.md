@@ -3803,3 +3803,57 @@ Clinical precision made warm. The monospace chrome signals rigor, traceability, 
 
 ---
 
+## Plotter Spring System (ID: `light-technical-plotter-051-001`)
+
+**Description:** A stark white infrastructure-marketing system that treats the page like a plotter drawing: dashed hairline rules divide every section and column, every interactive label is set in letterspaced upperca
+
+**Tags:** `light`, `high-contrast`, `monospace`, `neon`, `developer`, `marketing`, `illustrated`, `minimal`
+
+**Colors:** `#FFFFFF`, `#F6F6F4`, `#000000`, `#1BE670`, `#F6C7F2`
+
+**Design Tone:**
+Precise, industrial, and unsentimental — a technical drawing that happens to be selling something. The dashed grid and monospace labels borrow the vocabulary of CAD and terminal output, while the acid green highlighter injects exactly enough energy to keep the page from reading as documentation. It is confident without being loud: the black-on-white contrast does the shouting, and the accent is rationed to one gesture per screen.
+
+**Usage Notes:**
+1. Ration the green to one gesture per screenful. It appears as a highlighter block, a status dot, or a diagram fill — never all three in the same viewport. Two green elements competing on one screen collapses the system into a generic startup landing page.
+2. Never fill a button with `#1BE670`. Primary actions are black. The moment green becomes a CTA color, the highlighter stops reading as emphasis and becomes brand wallpaper.
+3. Every uppercase string is monospace and every sentence-case string is the grotesque. Setting a button label in uppercase Space Grotesk is the single fastest way to make this look like a different system.
+4. Keep `border-radius: 0` everywhere except the two dot cases. Softening buttons or inputs to even 4px removes the drafting-table quality the whole system rests on.
+5. The dashed rules must mark real structure — column edges, section boundaries, cell dividers. Scattering them as texture makes the page read as busy rather than surveyed, and the grid loses its meaning.
+6. Never add a shadow. When a surface needs to separate, step the ground from `#FFFFFF` to `#F6F6F4` or add a 1px solid `#D8D8D4` border. A single `box-shadow` anywhere makes every borderless block look broken by comparison.
+7. Do not center body prose longer than three lines. Centered heads with centered supporting sentences are correct for statement sections; centered paragraphs of five lines are not, and the measure cap of 62 characters exists to stop it.
+8. Give the gutter to exactly one element and set section rhythm with `padding-top` / `padding-bottom` longhand. A `padding: 96px 0` shorthand on a sibling class wins on source order and silently flushes content to the viewport edge on mobile while the header stays indented.
+9. Size hero and section heads with `clamp()` rather than media queries. The display type is tightly tracked and unbreakable, so a fixed 76px numeral overflows a 393px viewport with no element reporting as overflowing; add `overflow-wrap: anywhere` to any type specimen.
+10. Errors are stated in words, not in red. The palette carries no error color on purpose — introducing one adds a hue that appears nowhere else and immediately looks foreign against the two-color scheme.
+
+[View Full System Definition](systems/light-technical-plotter-051-001/system.md)
+
+---
+
+## Oxide Nocturne (ID: `dark-oxide-nocturne-052-001`)
+
+**Description:** A near-black interface built on a single deep blue-black ground, where a rust-orange italic serif cuts across wide grotesque headlines and every label, button, and numeral is set in uppercase monospac
+
+**Tags:** `dark`, `stark`, `high-contrast`, `monospace`, `serif`, `marketing`, `generous-spacing`
+
+**Colors:** `#030A12`, `#12171F`, `#CB623A`, `#F1F3F6`, `#DCDCDE`
+
+**Design Tone:**
+Composed, technical, and quietly expensive. The near-black ground and complete absence of shadow give the system a flat, printed quality, while the rust italic serif cutting through a grotesque headline supplies the single moment of voice — a system that argues in prose and then punctuates. The monospace labeling makes every button and eyebrow read as an instrument reading rather than as marketing copy, which is what keeps the long paragraphs from feeling like a brochure.
+
+**Usage Notes:**
+1. **Never round a corner.** Every rectangle in this system is sharp; the avatar is the sole exception and it is round because a square face photograph reads as an ID card. A 4px radius applied "for softness" converts this into a generic dark SaaS template in a single edit.
+2. **One accent phrase per heading, and it must be a clause.** The italic serif works because it reads as an aside inside a sentence. Applying it to a single adjective ("*powerful* results") or to an entire heading collapses the effect and makes the page look like it has two competing display faces.
+3. **Never fill anything with the accent.** `#CB623A` is ink, never a surface. An orange button, an orange card, or an orange band destroys the ratio the system depends on — roughly one accent element per screenful, sized to be found rather than avoided.
+4. **The eyebrow is structural, not decorative.** Every section starts with a mono uppercase label. Dropping it because a section "is obviously the FAQ" removes the only wayfinding the page has, since there are no background changes to mark section boundaries.
+5. **Do not add shadows to create depth.** Step the surface from `#030A12` to `#12171F` instead. A `box-shadow` on a card here is immediately visible as foreign, because nothing else on the page casts one and the ground is dark enough that a shadow reads as a grey halo.
+6. **Set prose long and set it wide.** Body paragraphs of four or five sentences at 62 characters are correct. Breaking them into three-line chunks with more whitespace is the standard instinct and it is wrong here — the system's entire argument is that the reader will read, and short marketing fragments make the long-form sections look like a mistake.
+7. **Keep the corner brackets on exactly one control.** They are a target mark on the primary call to action. Applied to a secondary button, a card, or an input, they stop being a mark and become a border treatment, and the primary button loses the only thing that distinguished it.
+8. **Give the gutter to one element and use longhand vertical padding on its siblings.** A `padding: 96px 0` shorthand on a section class that shares an element with the gutter class wins on source order and flushes content to the viewport edge on mobile, while the nav stays correctly indented — so the page reads as inconsistently aligned rather than obviously broken.
+9. **Clamp the display sizes.** A fixed 92px headline overflows a 393px viewport, and the grotesque at 500 weight with `-0.03em` tracking does not break mid-word. Use `clamp()` on every level above 22px and add `overflow-wrap: anywhere` to any type specimen.
+10. **The halftone field appears once per page.** It is background texture at 12–20% opacity, built as a block-level band with a nested gutter element. Two instances on one page turn a restrained surface into a patterned one, and negative-viewport-margin full-bleed doubles the document width and forces a horizontal scrollbar at every size.
+
+[View Full System Definition](systems/dark-oxide-nocturne-052-001/system.md)
+
+---
+
