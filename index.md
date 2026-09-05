@@ -3857,3 +3857,66 @@ Composed, technical, and quietly expensive. The near-black ground and complete a
 
 ---
 
+## Bevel Messenger System (ID: `light-bevel-messenger-053-001`)
+
+**Description:** Bevel Messenger System is a skeuomorphic desktop-chrome language built from tan dialog faces, glossy blue title bars, and two-pixel bevels that draw depth without a single blur. Nothing is rounded and
+
+**Tags:** `light`, `retro`, `warm`, `gradient`, `skeuomorphic`, `forms`, `productivity`
+
+**Colors:** `#ECE9D7`, `#015BEE`, `#FFFFFF`, `#C41200`, `#ACA899`
+
+**Design Tone:**
+Physical, dense, and unapologetically utilitarian — an interface that behaves like a machine with edges rather than a surface that gets out of the way. The warm tan face and glossy blue caption give it a domestic, slightly nostalgic warmth that keeps the density from reading as severe, and the serif content well makes the words a person actually reads feel like a letter sitting inside a tool. It is confident about being a program: every control announces itself, nothing hides until hover except the toolbar, and the hierarchy is legible from six feet away because it is drawn in light and shadow rather than in whitespace.
+
+**Usage Notes:**
+1. **Never round anything.** Three exceptions exist and they are enumerated in Visual Effects. A `border-radius: 8px` on a card or a button is the single change that turns this system into a generic 2015 web page, and it is the mistake that will be made first.
+
+2. **Never add a blurred shadow.** If an element needs to sit above another, give it the two-pixel raised bevel. If it needs to recede, invert the same two pixels. Reaching for `box-shadow: 0 2px 8px rgba(0,0,0,0.1)` is the second-fastest way to destroy the aesthetic.
+
+3. **Keep the two type families strictly separated.** Chrome is 11px sans; content is 16px serif on white. Setting message text in the sans makes it look like a settings panel, and setting a button label in the serif makes it look like a Word document. There is no third face and no italic display type.
+
+4. **Do not scale chrome type for emphasis.** A section heading is bold 11px. If something needs to be more prominent, add weight, add the selection fill, or give it a bevel — never add points.
+
+5. **Toolbar buttons start flat, dialog buttons start raised.** This distinction is doing real work: a strip of twelve flat controls reads as one band, and twelve raised ones read as visual noise. Apply the bevel on hover for toolbars, at rest for dialogs and action bars.
+
+6. **Set every transition to 0ms.** Snap is a property of this system, not an oversight. One 150ms ease on a hover fill is enough to make the whole page read as a modern site wearing retro colors.
+
+7. **The tan is the ground, not an accent.** `#ECE9D7` should cover most of the visible area. If the page is mostly white with tan cards on it, the system is inverted — white belongs inside sunken wells only, and a white surface without a `#7F9DB9` border and an inset bevel is wrong.
+
+8. **Use color to identify, not to decorate.** Red and blue mark *who is speaking* or *what state a thing is in*. There is no brand accent to sprinkle around, and a colored button fill does not exist outside the caption buttons — the primary action in an action bar is marked by a green underline under its label instead.
+
+9. **Etched grooves separate; whitespace does not.** When two groups of controls need separation, put a 1px `#C9C7BB` line with a 1px `#FFFFFF` line beside it between them. Adding 24px of air instead produces something that looks like this system's colors applied to a different system's structure.
+
+10. **Tabs dock to the bottom and expanders are square.** These two details read as arbitrary and are the ones that make the system recognizable. A chevron expander or a top-docked tab strip is a correct implementation of the wrong system.
+
+[View Full System Definition](systems/light-bevel-messenger-053-001/system.md)
+
+---
+
+## Marigold Sketchnote (ID: `light-warm-sketchnote-054-001`)
+
+**Description:** Marigold Sketchnote is a hand-drawn explainer aesthetic: warm cream paper, black felt-tip lettering, hand-outlined boxes, and one highlighter-yellow marker carrying every bit of emphasis. It looks lik
+
+**Tags:** `light`, `warm`, `playful`, `friendly`, `hand-drawn`, `sketchnote`, `illustrated`, `highlighter`, `rounded`, `marketing`
+
+**Colors:** `#F7F3E8`, `#FCFBF4`, `#F2E64B`, `#1C1B19`
+
+**Design Tone:**
+Warm, hand-made, and confident without polish — a smart friend explaining something on a whiteboard rather than a brand presenting to you. The single highlighter-yellow accent against black ink on cream paper makes it feel energetic and human, and the deliberate imperfection (drawn borders, small rotations, marker swashes) signals that a person made this on purpose. It reads as approachable and trustworthy precisely because it isn't slick.
+
+**Usage Notes:**
+1. One accent only. Yellow, ink, and paper are the entire palette; brick red is permitted solely for destructive/error states. Add a second accent color and the sketchnote collapses into a generic startup deck. Budget roughly one highlighted element per screenful — the marker is a pointer, not a fill.
+2. Emphasis is never a CSS `text-decoration: underline`. A straight underline reads as a hyperlink and kills the hand-drawn illusion. Emphasis is a marker highlight behind the text or a hand-drawn swash under the word.
+3. No drop shadows, ever. Depth is the 2.5px ink outline on paper. The moment a card gains a box-shadow it becomes a material-design card wearing a costume; step nothing, shadow nothing — the border carries it.
+4. Borders must look drawn. Use an irregular multi-value `border-radius` (corners that don't match) or a rough SVG rect, not a clean uniform radius. A perfect rounded rectangle is the single fastest way to lose the whole system.
+5. Keep to the two hand fonts. If body text switches to a geometric or system sans "for readability," the page instantly reads as a corporate site that pasted in a marker header. Legibility comes from Patrick Hand at 15px or larger, not from abandoning the hand.
+6. Uppercase display, sentence-case body. Section titles, labels, and stat labels are ALL CAPS marker; descriptions and running text are neat sentence case. Inverting this flattens the hierarchy the system depends on.
+7. Tilt on purpose, a little. Give cards, chips, and labels -3deg to 3deg of rotation and vary it; a grid at exactly 0deg looks like a failed hand-drawn theme, and anything past ~3deg looks chaotic. The imperfection is the design, but it is controlled.
+8. Highlight like a marker, not a button. The yellow swash sits behind text, skews slightly, and bleeds a hair past the words with uneven ends. A solid rectangle flush to a text box reads as a filled button and breaks the effect.
+9. Tab-labels belong to their card. A yellow title chip overlaps the top edge of the card it names; floating it free in space breaks the "sticky note on the box" read that ties label to content.
+10. Icons stay ink-only line drawings. 2px rounded-cap strokes, monochrome, never filled and never colored. A filled or yellow icon competes with the one accent and looks imported from a different set — redraw it as an outline instead.
+
+[View Full System Definition](systems/light-warm-sketchnote-054-001/system.md)
+
+---
+
