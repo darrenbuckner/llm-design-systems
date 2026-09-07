@@ -3920,3 +3920,30 @@ Warm, hand-made, and confident without polish — a smart friend explaining some
 
 ---
 
+## Sherbet Marquee System (ID: `light-pastel-marquee-055-001`)
+
+**Description:** Sherbet Marquee is a high-contrast light system for event, festival, and program marketing: oversized medium-weight grotesque headlines on pure white, monospaced uppercase utility labels, full-round b
+
+**Tags:** `light`, `bold`, `playful`, `colorful`, `rounded`, `mobile-first`, `monospace`, `marketing`, `celebration`
+
+**Colors:** `#FFFFFF`, `#000000`, `#ECF6D4`, `#EBEBFD`, `#FEFF56`
+
+**Design Tone:**
+Confident festival signage translated to a screen — enormous but unbolded display type on pure white, hard black controls, and sherbet-pastel bands that make a long marketing page navigable by color rather than by chrome. It feels institutional and playful at once: the mono utility labels give it the precision of a printed program, while the mint, lavender, and cream blocks keep it from reading as corporate. The absence of shadow is what holds it together; every surface sits flat on the page and earns its separation from tint and hairline alone.
+
+**Usage Notes:**
+1. Never set display type at weight 700. The medium-weight-at-huge-size relationship is the whole voice; bolding it turns the system into a generic conversion landing page.
+2. Keep the mono strictly to facts — dates, locations, quantities, banner strings, eyebrows. The moment a sentence of persuasion appears in mono, the system reads as a developer tool rather than an event program.
+3. Add no shadows, ever. If something needs to separate from its surroundings, step the background one tone deeper or add a hairline. A single `box-shadow` breaks the printed-signage read across the whole page.
+4. Use one Band color per section and alternate with white. Stacking mint against lavender against cream with no white between them turns structure into a swatch demo.
+5. Ship exactly one iridescent surface per page. It is the visual reward for the primary offer; a second one halves the effect of both.
+6. The highlight yellow marks one word, never a block. Treat it as a physical highlighter stroke behind a label — not as a button fill, a card background, or a border.
+7. Hairlines inside tinted panels are mid-gray (`#707070`), not faint. Softening them to `#E5E5E5` makes the grouped list panel dissolve, which is the most common way this system gets watered down.
+8. Blue appears only on interactive chrome, and which blue depends on whether it carries a shape or a symbol: `#3787F9` for rings, fills, and selection indicators, `#1F5FC4` the moment it becomes a glyph or a label. Using the lighter blue on an icon ships a 3.07:1 control. Neither blue is ever used for links, buttons, or headings — links carry their affordance through a bold underline and a trailing chevron.
+9. Center only hero-level display type. Every section heading, list row, and body paragraph is left-aligned to the gutter, and centering them flattens the hierarchy into a template.
+10. Keep the desktop adaptation to wider gutters, a two-column feature card, and a wrapped chip rail. Introducing a multi-column grid or a sidebar contradicts the single-column vertical rhythm the whole system is built on.
+
+[View Full System Definition](systems/light-pastel-marquee-055-001/system.md)
+
+---
+
