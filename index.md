@@ -3947,3 +3947,30 @@ Confident festival signage translated to a screen — enormous but unbolded disp
 
 ---
 
+## Anthracite Operator (ID: `dark-operator-anthracite-056-001`)
+
+**Description:** A pure-black landing system for technical consultancies and operator programs: warm charcoal bands, condensed grotesque headlines, monospace diagnostic readouts, and five status hues that act as signa
+
+**Tags:** `dark`, `high-contrast`, `condensed`, `monospace`, `terminal`, `marketing`, `data-visualization`, `cards`, `forms`
+
+**Colors:** `#000000`, `#272725`, `#E1AD3F`, `#E03C14`, `#F2F1ED`
+
+**Design Tone:**
+Operator-grade and plainspoken: pure black, warm charcoal, and condensed headlines that sound like a field lead talking to an executive. Terminal readouts and status colors carry the credibility, so the page feels like a diagnostic already in progress rather than a pitch.
+
+**Usage Notes:**
+1. The page ground is `#000000`, not a near-black. Swapping it for `#0B0B0F` or any blue-black turns this into a generic dark SaaS page and flattens the three-step ground system.
+2. Charcoal `#272725` is warm. A neutral `#262626` or cool `#1F2937` loses the anthracite character; keep the slight yellow cast in every gray.
+3. Status hues are signals. Each one must mean something where it appears (a readout value, a meter, a category). Never tint a background, a heading, or a button with indigo, sage, or orchid.
+4. Use the ink variants for any status text under 18px. The indigo and orchid fills fall below 4.5:1 on the card surface and become unreadable as small text.
+5. All uppercase text except the logo wordmark is IBM Plex Mono, all mixed-case prose is Geist, all headlines are Barlow Semi Condensed. Putting body copy in mono makes it a developer tool; putting headlines in Geist makes it a startup template.
+6. The terminal window replaces the hero image. Do not add photography, 3D renders, or illustration to the hero; if the page needs a visual, build another readout.
+7. No shadows and no radius above 6px. Soft rounded cards with drop shadows are the most common way this system gets misapplied.
+8. Card headlines end with a period ("Find the constraint."). Dropping the period removes the declarative voice that separates this from marketing copy.
+9. Gold is the only action color. The primary button is white, the nav CTA is gold, and nothing else is a filled button. A second gold element per screenful dilutes it.
+10. Never stack two charcoal bands. The black-band-black alternation is the section system; two bands in a row read as one oversized card.
+
+[View Full System Definition](systems/dark-operator-anthracite-056-001/system.md)
+
+---
+
